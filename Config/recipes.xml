@@ -1,0 +1,25 @@
+<IronSharkInc>
+
+    <!-- NOTE: Crafting menu only shows first 5 ingredients. Tracker only shows first 8 ingredients. -->
+    
+    <append xpath="//recipes">
+
+        <recipe name="ekoSwitchbackDay07Shapes" count="1" craft_time="5">
+            <ingredient name="frameShapes:VariantHelper" count="420"/>
+        </recipe>
+
+        <recipe name="ekoSwitchbackDay14Shapes" count="1" craft_time="5">
+            <ingredient name="frameShapes:VariantHelper" count="350"/>
+        </recipe>
+
+        <recipe name="ekoSwitchbackDay21Shapes" count="1" craft_time="5">
+            <ingredient name="frameShapes:VariantHelper" count="175"/>
+        </recipe>
+
+        <recipe name="ekoSwitchbackDay28Shapes" count="1" craft_time="5">
+            <ingredient name="frameShapes:VariantHelper" count="76"/>
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+ekoShapeBundleDescription,blocks,block,,,A bundle of shapes needed to build Wayward Eko's Switchback base,,,,,,,,,,,,,
+
+ekoSwitchbackDay07Shapes,blocks,block,,,Eko Switchback Day 07 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay14Shapes,blocks,block,,,Eko Switchback Day 14 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay21Shapes,blocks,block,,,Eko Switchback Day 21 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay28Shapes,blocks,block,,,Eko Switchback Day 28 Shapes,,,,,,,,,,,,,
