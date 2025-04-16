@@ -1,11 +1,12 @@
 <IronSharkInc>
 
+    <!-- Template -->
     <append xpath="//items">
 
-        <item name="isiShapeBundle">
+        <item name="isiBuildBundle">
+            <property name="CreativeMode" value="None"/>
             <property name="CustomIcon" value="bundleTools"/>
             <property name="ItemTypeIcon" value="bundle"/>
-            <property name="CustomIconTint" value="f58231"/>
             <property name="Material" value="Mwood_weak_shapes"/>
             <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
             <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
@@ -14,39 +15,39 @@
             </property>
         </item>
 
-        <item name="ekoShapeBundle">
-            <property name="Extends" value="isiShapeBundle"/>
+    </append>
+
+    <!-- Switchback -->
+    <append xpath="//items">
+
+        <item name="ekoSwitchbackBundle">
+            <property name="Extends" value="isiBuildBundle"/>
             <property name="CreativeMode" value="None"/>
-            <property name="CustomIconTint" value="008000"/>
-            <!-- <property name="CustomIcon" value="shapeFontE"/> -->
-            <property name="DescriptionKey" value="ekoShapeBundleDescription"/>
+            <property name="CustomIconTint" value="3cb44b"/>
+            <property name="DescriptionKey" value="ekoSwitchbackBundleDescription"/>
         </item>
 
-    </append>
-    
-    <append xpath="//items">
-        
         <item name="ekoSwitchbackDay07Shapes">
-            <property name="Extends" value="ekoShapeBundle"/>
+            <property name="Extends" value="ekoSwitchbackBundle"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    frameShapes:ramp,
-                    frameShapes:stairsFilledVerticalUV,
-                    frameShapes:wedge60Tip,
-                    frameShapes:cubeHalf,
-                    frameShapes:cubeCornerBeveled,
-                    frameShapes:cubeHalfRampTip,
-                    frameShapes:cube,
-                    frameShapes:scaffoldingLadder,
-                    frameShapes:wedge60TipCornerCubeQuarter,
-                    frameShapes:cubeQuarter,
-                    frameShapes:cubeNarrowPyramidBase,
-                    frameShapes:cubeQuarterCenter,
-                    frameShapes:cubeQuarterCenteredPyramid,
-                    frameShapes:balusterRail02,
-                    frameShapes:pole,
-                    frameShapes:polePlateHalf,
-                    frameShapes:poleSquareDoubleTop
+                    woodShapes:ramp,
+                    woodShapes:stairsFilledVerticalUV,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeHalf,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:cubeHalfRampTip,
+                    woodShapes:cube,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
+                    woodShapes:cubeNarrowPyramidBase,
+                    woodShapes:cubeQuarterCenter,
+                    woodShapes:cubeQuarterCenteredPyramid,
+                    woodShapes:balusterRail02,
+                    woodShapes:pole,
+                    woodShapes:polePlateHalf,
+                    woodShapes:poleSquareDoubleTop
                 "/>
                 <property name="Create_item_count" value="
                     34,
@@ -71,27 +72,27 @@
         </item>
 
         <item name="ekoSwitchbackDay14Shapes">
-            <property name="Extends" value="ekoShapeBundle"/>
+            <property name="Extends" value="ekoSwitchbackBundle"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    frameShapes:cubeQuarterCenteredPyramid,
-                    frameShapes:wedge60TipCornerCubeQuarter,
-                    frameShapes:cubeQuarter,
-                    frameShapes:cube,
-                    frameShapes:cubeCornerBeveled,
-                    frameShapes:windowIndustrial01Full,
-                    frameShapes:cubeBeveledCorner,
-                    frameShapes:cubeCornerBeveledOutsideCorner,
-                    frameShapes:wedgeNarrowTip,
-                    frameShapes:polePlate,
-                    frameShapes:poleSquareDouble,
-                    frameShapes:poleSquareDoubleTop,
-                    frameShapes:scaffoldingLadder,
-                    frameShapes:ramp,
-                    frameShapes:rampCorner,
-                    frameShapes:rampInclineFiller,
-                    frameShapes:wedge60Tip,
-                    frameShapes:wedgeNarrowLow
+                    woodShapes:cubeQuarterCenteredPyramid,
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
+                    woodShapes:cube,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:windowIndustrial01Full,
+                    woodShapes:cubeBeveledCorner,
+                    woodShapes:cubeCornerBeveledOutsideCorner,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:polePlate,
+                    woodShapes:poleSquareDouble,
+                    woodShapes:poleSquareDoubleTop,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:ramp,
+                    woodShapes:rampCorner,
+                    woodShapes:rampInclineFiller,
+                    woodShapes:wedge60Tip,
+                    woodShapes:wedgeNarrowLow
                 "/>
                 <property name="Create_item_count" value="
                     30,
@@ -117,29 +118,29 @@
         </item>
 
         <item name="ekoSwitchbackDay21Shapes">
-            <property name="Extends" value="ekoShapeBundle"/>
+            <property name="Extends" value="ekoSwitchbackBundle"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    frameShapes:cube,
-                    frameShapes:wedge60,
-                    frameShapes:wedge60Tip,
-                    frameShapes:stairsFilledVerticalUV,
-                    frameShapes:stairsFilledCorner,
-                    frameShapes:scaffoldingLadder,
-                    frameShapes:ramp,
-                    frameShapes:gableInvertedQuarter,
-                    frameShapes:securityGateCentered,
-                    frameShapes:securityGateCenteredDiagonal,
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledCorner,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:ramp,
+                    concreteShapes:gableInvertedQuarter,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGateCenteredDiagonal,
 
-                    frameShapes:cube,
-                    frameShapes:wedge60TipCornerCubeQuarter,
-                    frameShapes:cubeQuarter,
-                    frameShapes:wedgeNarrowHigh,
-                    frameShapes:wedgeNarrowMid,
-                    frameShapes:wedgeNarrowLow,
-                    frameShapes:wedgeNarrowTip,
-                    frameShapes:stairsFilledVerticalUV,
-                    frameShapes:ramp
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60TipCornerCubeQuarter,
+                    cobblestoneShapes:cubeQuarter,
+                    cobblestoneShapes:wedgeNarrowHigh,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:stairsFilledVerticalUV,
+                    cobblestoneShapes:ramp
                 "/>
                 <property name="Create_item_count" value="
                     14,
@@ -167,19 +168,19 @@
         </item>
 
         <item name="ekoSwitchbackDay28Shapes">
-            <property name="Extends" value="ekoShapeBundle"/>
+            <property name="Extends" value="ekoSwitchbackBundle"/>
             <property class="Action0">
                 <property name="Create_item" value="
-                    frameShapes:plateRamp,
-                    frameShapes:securityGatePlate,
-                    frameShapes:wedgeNarrowLow,
-                    frameShapes:wedgeNarrowTip,
-                    frameShapes:ramp,
-                    frameShapes:cubeQuarter,
-                    frameShapes:cubeQuarterCornerPyramid,
-                    frameShapes:industrialFenceTop,
-                    frameShapes:halfBlockPillar50,
-                    frameShapes:pillar50
+                    concreteShapes:plateRamp,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeQuarterCornerPyramid,
+                    concreteShapes:industrialFenceTop,
+                    concreteShapes:halfBlockPillar50,
+                    concreteShapes:pillar50
                 "/>
                 <property name="Create_item_count" value="
                     8,
@@ -192,6 +193,438 @@
                     32,
                     2,
                     4
+                "/>
+            </property>
+        </item>
+
+    </append>
+
+    <!-- Seeker's Bane -->
+    <append xpath="//items">
+        
+        <item name="ekoSeekersBaneBundle">
+            <property name="Extends" value="isiBuildBundle"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="CustomIconTint" value="911eb4"/>
+            <property name="DescriptionKey" value="ekoSeekersBaneBundleDescription"/>
+        </item>
+
+        <item name="ekoSeekersBaneStage1Step1PillarsAndPlatform">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    woodShapes:cube,
+                    woodShapes:metalTruss3D,
+                    woodShapes:doorTrim1mDouble,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60Tip,
+                    woodShapes:ramp,
+                    
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeBeveledCorner,
+                    cobblestoneShapes:cubeCornerBeveledBookcaseFull,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:wedge60SlopeCorner03
+                "/>
+                <property name="Create_item_count" value="
+                    60,
+                    16,
+                    2,
+                    12,
+                    4,
+                    4,
+                    
+                    40,
+                    1,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage1Step2Ramp">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    woodShapes:cube,
+                    woodShapes:ramp,
+                    woodShapes:ramp8m01,
+                    woodShapes:ramp8m02,
+                    woodShapes:ramp8m03,
+                    woodShapes:ramp8m04,
+                    woodShapes:ramp8m05,
+                    woodShapes:ramp8m06,
+                    woodShapes:ramp8m07,
+                    woodShapes:ramp8m08,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh,
+                    woodShapes:poleSideCentered,
+                    woodShapes:poleHalfSideCentered
+                "/>
+                <property name="Create_item_count" value="
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage1Step3FightingPosition">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    woodShapes:cube,
+                    woodShapes:wedge60,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:plateCornerBeveled,
+                    woodShapes:securityGateCenteredDiagonal,
+                    woodShapes:rampInclineFiller,
+                    woodShapes:bookcaseFull,
+                    woodShapes:doorTrimThreeSided,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:plateHalfThreeSided,
+                    woodShapes:rampTipOffset,
+                    woodShapes:wedge60TipHalfLeft,
+                    woodShapes:wedge60TipHalfRight,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh
+                "/>
+                <property name="Create_item_count" value="
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage2Step2PillarsAndPlatform">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeBeveledCorner,
+                    cobblestoneShapes:cubeCornerBeveledBookcaseFull,
+                    cobblestoneShapes:wedge60Tip,
+                    cobblestoneShapes:ramp,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:wedge60SlopeCorner03
+                "/>
+                <property name="Create_item_count" value="
+                    50,
+                    1,
+                    24,
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage2Step3SecondRamp">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:ramp,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowHigh,
+                    cobblestoneShapes:poleSideCentered,
+                    cobblestoneShapes:poleHalfSideCentered
+                "/>
+                <property name="Create_item_count" value="
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage2Step4FightingPosition">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:wedge60Tip,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:plateCornerBeveled,
+                    cobblestoneShapes:securityGateCenteredDiagonal,
+                    cobblestoneShapes:rampInclineFiller,
+                    cobblestoneShapes:bookcaseFull,
+                    cobblestoneShapes:doorTrimThreeSided,
+                    cobblestoneShapes:scaffoldingLadder,
+                    cobblestoneShapes:plateHalfThreeSided,
+                    cobblestoneShapes:rampTipOffset,
+                    cobblestoneShapes:wedge60TipHalfLeft,
+                    cobblestoneShapes:wedge60TipHalfRight,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowHigh
+                "/>
+                <property name="Create_item_count" value="
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage2Step5CenterPillarReinforcement">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08
+                "/>
+                <property name="Create_item_count" value="
+                    44,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage2Step6SideWallsAndRoof">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:scaffoldingLadder,
+                    cobblestoneShapes:window02Full
+                "/>
+                <property name="Create_item_count" value="
+                    120,
+                    10,
+                    4,
+                    4
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage3Step2RampExpansion">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:rampCorner
+                "/>
+                <property name="Create_item_count" value="
+                    110,
+                    42,
+                    12,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    2,
+                    2,
+                    2,
+                    2,
+                    8
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage3Step3PillarExpansion">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh
+                "/>
+                <property name="Create_item_count" value="
+                    16,
+                    42,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    8,
+                    8,
+                    8,
+                    8
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage3Step4InteriorAndElectricalAdditions">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    concreteShapes:plate,
+                    concreteShapes:plateDouble,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:doorTrim1m
+                "/>
+                <property name="Create_item_count" value="
+                    7,
+                    2,
+                    2,
+                    6
+                "/>
+            </property>
+        </item>
+
+        <item name="ekoSeekersBaneStage3Step5RoofAdditions">
+            <property name="Extends" value="ekoSeekersBaneBundle"/>
+            <property class="Action0">
+                <property name="Create_item" value="
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:rampCorner
+                "/>
+                <property name="Create_item_count" value="
+                    8,
+                    8,
+                    12
                 "/>
             </property>
         </item>

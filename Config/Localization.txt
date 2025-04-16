@@ -1,8 +1,27 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
 
-ekoShapeBundleDescription,blocks,block,,,A bundle of shapes needed to build Wayward Eko's Switchback base,,,,,,,,,,,,,
 
-ekoSwitchbackDay07Shapes,blocks,block,,,Eko Switchback Day 07 Shapes,,,,,,,,,,,,,
-ekoSwitchbackDay14Shapes,blocks,block,,,Eko Switchback Day 14 Shapes,,,,,,,,,,,,,
-ekoSwitchbackDay21Shapes,blocks,block,,,Eko Switchback Day 21 Shapes,,,,,,,,,,,,,
-ekoSwitchbackDay28Shapes,blocks,block,,,Eko Switchback Day 28 Shapes,,,,,,,,,,,,,
+ekoSwitchbackBundleDescription,blocks,block,,,A bundle of shapes needed to build Wayward Eko's Switchback base,,,,,,,,,,,,,
+
+ekoSwitchbackDay07Shapes,blocks,block,,,Switchback Day 07 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay14Shapes,blocks,block,,,Switchback Day 14 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay21Shapes,blocks,block,,,Switchback Day 21 Shapes,,,,,,,,,,,,,
+ekoSwitchbackDay28Shapes,blocks,block,,,Switchback Day 28 Shapes,,,,,,,,,,,,,
+
+
+ekoSeekersBaneBundleDescription,blocks,block,,,A bundle of shapes needed to build Wayward Eko's Seeker's Bane base,,,,,,,,,,,,,
+
+ekoSeekersBaneStage1Step1PillarsAndPlatform,blocks,block,,,Seeker's Bane - Stage 1 | Step 1: Pillars and Platform,,,,,,,,,,,,,
+ekoSeekersBaneStage1Step2Ramp,blocks,block,,,Seeker's Bane - Stage 1 | Step 2: Ramp,,,,,,,,,,,,,
+ekoSeekersBaneStage1Step3FightingPosition,blocks,block,,,Seeker's Bane - Stage 1 | Step 3: Fighting Position,,,,,,,,,,,,,
+
+ekoSeekersBaneStage2Step2PillarsAndPlatform,blocks,block,,,Seeker's Bane - Stage 2 | Step 2: Pillars and Platform,,,,,,,,,,,,,
+ekoSeekersBaneStage2Step3SecondRamp,blocks,block,,,Seeker's Bane - Stage 2 | Step 3: 2nd Ramp,,,,,,,,,,,,,
+ekoSeekersBaneStage2Step4FightingPosition,blocks,block,,,Seeker's Bane - Stage 2 | Step 4: Fighting Position,,,,,,,,,,,,,
+ekoSeekersBaneStage2Step5CenterPillarReinforcement,blocks,block,,,Seeker's Bane - Stage 2 | Step 5: Cental Pillar Reinforcement,,,,,,,,,,,,,
+ekoSeekersBaneStage2Step6SideWallsAndRoof,blocks,block,,,Seeker's Bane - Stage 2 | Step 6: Side Walls & Roof,,,,,,,,,,,,,
+
+ekoSeekersBaneStage3Step2RampExpansion,blocks,block,,,Seeker's Bane - Stage 3 | Step 2: Ramp Expansion,,,,,,,,,,,,,
+ekoSeekersBaneStage3Step3PillarExpansion,blocks,block,,,Seeker's Bane - Stage 3 | Step 3: Pillar Expansion,,,,,,,,,,,,,
+ekoSeekersBaneStage3Step4InteriorAndElectricalAdditions,blocks,block,,,Seeker's Bane - Stage 3 | Step 4: Interior & Electrical Additions,,,,,,,,,,,,,
+ekoSeekersBaneStage3Step5RoofAdditions,blocks,block,,,Seeker's Bane - Stage 3 | Step 5: Roof Additions,,,,,,,,,,,,,

@@ -1,23 +1,79 @@
 <IronSharkInc>
 
     <!-- NOTE: Crafting menu only shows first 5 ingredients. Tracker only shows first 8 ingredients. -->
-    
+
+    <!-- Switchback -->
     <append xpath="//recipes">
 
         <recipe name="ekoSwitchbackDay07Shapes" count="1" craft_time="5">
-            <ingredient name="frameShapes:VariantHelper" count="420"/>
+            <ingredient name="woodShapes:VariantHelper" count="420"/>
         </recipe>
 
         <recipe name="ekoSwitchbackDay14Shapes" count="1" craft_time="5">
-            <ingredient name="frameShapes:VariantHelper" count="350"/>
+            <ingredient name="woodShapes:VariantHelper" count="350"/>
         </recipe>
 
         <recipe name="ekoSwitchbackDay21Shapes" count="1" craft_time="5">
-            <ingredient name="frameShapes:VariantHelper" count="175"/>
+            <ingredient name="concreteShapes:VariantHelper" count="59"/>
+            <ingredient name="cobblestoneShapes:VariantHelper" count="116"/>
         </recipe>
 
         <recipe name="ekoSwitchbackDay28Shapes" count="1" craft_time="5">
-            <ingredient name="frameShapes:VariantHelper" count="76"/>
+            <ingredient name="concreteShapes:VariantHelper" count="76"/>
+        </recipe>
+
+    </append>
+
+    <!-- SeekersBane -->
+    <append xpath="//recipes">
+        
+        <recipe name="ekoSeekersBaneStage1Step1PillarsAndPlatform" count="1" craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="120"/>
+            <ingredient name="cobblestoneShapes:VariantHelper" count="90"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage1Step2Ramp" count="1" craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="120"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage1Step3FightingPosition" count="1" craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="130"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage2Step2PillarsAndPlatform" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="110"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage2Step3SecondRamp" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="110"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage2Step4FightingPosition" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="130"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage2Step5CenterPillarReinforcement" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="80"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage2Step6SideWallsAndRoof" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="140"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage3Step2RampExpansion" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="200"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage3Step3PillarExpansion" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="110"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage3Step4InteriorAndElectricalAdditions" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="20"/>
+        </recipe>
+
+        <recipe name="ekoSeekersBaneStage3Step5RoofAdditions" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="30"/>
         </recipe>
 
     </append>
