@@ -1,6 +1,6 @@
 # ISI Build Bundles
 
-A 7 Days to Die (7D2D) mod that bundles the shapes needed to build specific horde bases.
+A 7 Days to Die (7D2D) mod that adds recipes that turns building cubes into the specific shapes needed to build iconic horde bases.
 
 ## Included Bases
 
