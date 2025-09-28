@@ -1,0 +1,144 @@
+<IronSharkInc>
+
+    <!-- Eko Box -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_EkoBox">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_EkoBox_Description" />
+        </item>
+
+        <!-- Step Bundles -->
+        <item name="WaywardEko_EkoBox_1_Build">
+            <property name="Extends" value="WaywardEko_EkoBox" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
+                    woodShapes:cubeHalfRampTip,
+                    woodShapes:cube,
+                    woodShapes:wedge60Offset,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60TipCornerBase,
+                    woodShapes:wedge60TipCornerTop,
+                    woodShapes:cubeHalf,
+                    woodShapes:windowIndustrial02Full,
+                    woodShapes:wedgeNarrowHighCorner,
+                    woodShapes:wedgeNarrowMidCorner,
+                    woodShapes:wedgeNarrowLowCorner,
+                    woodShapes:polePlate,
+                    woodShapes:industrialFenceTopSpiked,
+                    woodShapes:cubeBeveledCorner,
+                    woodShapes:rampInclineHalfRight,
+                    woodShapes:rampInclineFillerHalfRight,
+                    woodShapes:rampInclineHalfLeft,
+                    woodShapes:rampInclineFillerHalfLeft,
+                    woodShapes:stairs02,
+                    woodShapes:pillar0.0125SideCentered,
+                    woodShapes:balusterRail02,
+                    woodShapes:pole,
+                    woodShapes:poleSquareDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    106,
+                    20,
+                    34,
+                    8,
+                    24,
+                    10,
+                    8,
+                    8,
+                    50,
+                    8,
+                    4,
+                    4,
+                    4,
+                    35,
+                    24,
+                    2,
+                    7,
+                    5,
+                    7,
+                    5,
+                    14,
+                    12,
+                    4,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- All the Shapes -->
+        <item name="WaywardEko_EkoBox_Shapes">
+            <property name="Extends" value="WaywardEko_EkoBox" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:polePlate,
+                    concreteShapes:industrialFenceTopSpiked,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:rampInclineHalfRight,
+                    concreteShapes:rampInclineFillerHalfRight,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:rampInclineFillerHalfLeft,
+                    concreteShapes:stairs02,
+                    concreteShapes:pillar0.0125SideCentered,
+                    concreteShapes:balusterRail02,
+                    concreteShapes:pole,
+                    concreteShapes:poleSquareDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    106,
+                    20,
+                    34,
+                    8,
+                    24,
+                    10,
+                    8,
+                    8,
+                    50,
+                    8,
+                    4,
+                    4,
+                    4,
+                    35,
+                    24,
+                    2,
+                    7,
+                    5,
+                    7,
+                    5,
+                    14,
+                    12,
+                    4,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+    </append>
+
+</IronSharkInc>

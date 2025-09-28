@@ -1,0 +1,67 @@
+<IronSharkInc>
+
+    <!-- Seeker's Bane -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <recipe name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform" count="1"
+            craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="120" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="90" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage1_Step2_Ramp" count="1" craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="120" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage1_Step3_FightingPosition" count="1" craft_time="1">
+            <ingredient name="woodShapes:VariantHelper" count="130" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform" count="1"
+            craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="110" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage2_Step3_SecondRamp" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="110" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage2_Step4_FightingPosition" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="130" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage2_Step5_CenterPillarReinforcement" count="1"
+            craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="80" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage2_Step6_SideWallsAndRoof" count="1" craft_time="1">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="140" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="200" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage3_Step3_PillarExpansion" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="110" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage3_Step4_InteriorAndElectricalAdditions" count="1"
+            craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="20" />
+        </recipe>
+
+        <recipe name="WaywardEko_SeekersBane_Stage3_Step5_RoofAdditions" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="30" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_SeekersBane_Shapes" count="1" craft_time="1">
+            <ingredient name="concreteShapes:VariantHelper" count="1390" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

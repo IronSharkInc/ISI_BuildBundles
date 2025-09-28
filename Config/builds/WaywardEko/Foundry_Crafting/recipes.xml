@@ -1,0 +1,47 @@
+<IronSharkInc>
+
+    <!-- Foundry (Crafting Base) -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <recipe name="WaywardEko_Foundry_Crafting_1_Ramp" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="127" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_2_Frame" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="340" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_3_GarageLevelWalls" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="90" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_4_CraftingLevelWalls" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="114" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_5_Roof" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="107" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_6_CraftingRoom" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="21" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_8_ExternalTrimAndFinalWiring" count="1"
+            craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="93" />
+        </recipe>
+
+        <recipe name="WaywardEko_Foundry_Crafting_9_GardenOptional" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="197" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_Foundry_Crafting_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="1089" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

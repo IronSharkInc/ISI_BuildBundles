@@ -1,0 +1,828 @@
+<IronSharkInc>
+
+    <!-- Seeker's Bane -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_SeekersBane">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_SeekersBane_Description" />
+        </item>
+
+        <!-- Stage 1 | Step 1 - Pillars & Platform -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:metalTruss3D,
+                    woodShapes:doorTrim1mDouble,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60Tip,
+                    woodShapes:ramp,
+                    
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeBeveledCorner,
+                    cobblestoneShapes:cubeCornerBeveledBookcaseFull,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:wedge60SlopeCorner03
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60,
+                    16,
+                    2,
+                    12,
+                    4,
+                    4,
+                    
+                    40,
+                    1,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 2 - Ramp -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step2_Ramp">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp,
+                    woodShapes:ramp8m01,
+                    woodShapes:ramp8m02,
+                    woodShapes:ramp8m03,
+                    woodShapes:ramp8m04,
+                    woodShapes:ramp8m05,
+                    woodShapes:ramp8m06,
+                    woodShapes:ramp8m07,
+                    woodShapes:ramp8m08,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh,
+                    woodShapes:poleSideCentered,
+                    woodShapes:poleHalfSideCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 3 - Fighting Position -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step3_FightingPosition">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:wedge60,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:plateCornerBeveled,
+                    woodShapes:securityGateCenteredDiagonal,
+                    woodShapes:rampInclineFiller,
+                    woodShapes:bookcaseFull,
+                    woodShapes:doorTrimThreeSided,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:plateHalfThreeSided,
+                    woodShapes:rampTipOffset,
+                    woodShapes:wedge60TipHalfLeft,
+                    woodShapes:wedge60TipHalfRight,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh
+                " />
+                <property name="Create_item_count"
+                    value="
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 2 - Pillars & Platform -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeBeveledCorner,
+                    cobblestoneShapes:cubeCornerBeveledBookcaseFull,
+                    cobblestoneShapes:wedge60Tip,
+                    cobblestoneShapes:ramp,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:wedge60SlopeCorner03
+                " />
+                <property name="Create_item_count"
+                    value="
+                    50,
+                    1,
+                    24,
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 3 - Second Ramp -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step3_SecondRamp">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:ramp,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08,
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowHigh,
+                    cobblestoneShapes:poleSideCentered,
+                    cobblestoneShapes:poleHalfSideCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 4 - Second Fighting Position -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step4_FightingPosition">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:wedge60Tip,
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:plateCornerBeveled,
+                    cobblestoneShapes:securityGateCenteredDiagonal,
+                    cobblestoneShapes:rampInclineFiller,
+                    cobblestoneShapes:bookcaseFull,
+                    cobblestoneShapes:doorTrimThreeSided,
+                    cobblestoneShapes:scaffoldingLadder,
+                    cobblestoneShapes:plateHalfThreeSided,
+                    cobblestoneShapes:rampTipOffset,
+                    cobblestoneShapes:wedge60TipHalfLeft,
+                    cobblestoneShapes:wedge60TipHalfRight,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowHigh
+                " />
+                <property name="Create_item_count"
+                    value="
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 5 - Center Pillar Reinforcement -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step5_CenterPillarReinforcement">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:ramp8m02,
+                    cobblestoneShapes:ramp8m03,
+                    cobblestoneShapes:ramp8m04,
+                    cobblestoneShapes:ramp8m05,
+                    cobblestoneShapes:ramp8m06,
+                    cobblestoneShapes:ramp8m07,
+                    cobblestoneShapes:ramp8m08
+                " />
+                <property name="Create_item_count"
+                    value="
+                    44,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 6 - Side Walls and Roof -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step6_SideWallsAndRoof">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:scaffoldingLadder,
+                    cobblestoneShapes:window02Full
+                " />
+                <property name="Create_item_count"
+                    value="
+                    120,
+                    10,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 3 | Step 2 - Ramp Expansion -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:rampCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    110,
+                    42,
+                    12,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    2,
+                    2,
+                    2,
+                    2,
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 3 | Step 3 - Pillar Expansion -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step3_PillarExpansion">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh
+                " />
+                <property name="Create_item_count"
+                    value="
+                    16,
+                    42,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    8,
+                    8,
+                    8,
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 3 | Step 4 - Interior & Electrical Additions -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step4_InteriorAndElectricalAdditions">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plate,
+                    concreteShapes:plateDouble,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:doorTrim1m
+                " />
+                <property name="Create_item_count"
+                    value="
+                    7,
+                    2,
+                    2,
+                    6
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 3 | Step 5 - Roof Additions -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step5_RoofAdditions">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:rampCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    8,
+                    12
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_SeekersBane_Shapes">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:metalTruss3D,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:ramp,
+                    
+                    concreteShapes:cube,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60SlopeCorner03,
+
+                    
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:poleSideCentered,
+                    concreteShapes:poleHalfSideCentered,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plateCornerBeveled,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:plateHalfThreeSided,
+                    concreteShapes:rampTipOffset,
+                    concreteShapes:wedge60TipHalfLeft,
+                    concreteShapes:wedge60TipHalfRight,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60SlopeCorner03,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:poleSideCentered,
+                    concreteShapes:poleHalfSideCentered,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plateCornerBeveled,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:plateHalfThreeSided,
+                    concreteShapes:rampTipOffset,
+                    concreteShapes:wedge60TipHalfLeft,
+                    concreteShapes:wedge60TipHalfRight,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:window02Full,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:rampCorner,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:plate,
+                    concreteShapes:plateDouble,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:doorTrim1m,
+
+
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:rampCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60,
+                    16,
+                    2,
+                    12,
+                    4,
+                    4,
+                    
+                    40,
+                    1,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+
+
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2,
+
+
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+
+
+                    50,
+                    1,
+                    24,
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+
+
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2,
+
+
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+
+
+                    44,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+
+
+                    120,
+                    10,
+                    4,
+                    4,
+
+
+                    110,
+                    42,
+                    12,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    2,
+                    2,
+                    2,
+                    2,
+                    8,
+
+
+                    16,
+                    42,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    8,
+                    8,
+                    8,
+                    8,
+
+
+                    7,
+                    2,
+                    2,
+                    6,
+
+
+                    8,
+                    8,
+                    12
+                " />
+            </property>
+        </item>
+
+    </append>
+
+</IronSharkInc>

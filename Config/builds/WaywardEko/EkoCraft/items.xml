@@ -1,0 +1,318 @@
+<IronSharkInc>
+
+    <!-- Eko Craft -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_EkoCraft">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_EkoCraft_Description" />
+        </item>
+
+        <!-- Pillars -->
+        <item name="WaywardEko_EkoCraft_1_Pillars">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    96
+                " />
+            </property>
+        </item>
+
+        <!-- Base Floor -->
+        <item name="WaywardEko_EkoCraft_2_BaseFloor">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingLadder
+                " />
+                <property name="Create_item_count"
+                    value="
+                    26,
+                    2,
+                    2,
+                    64,
+                    10
+                " />
+            </property>
+        </item>
+
+        <!-- Corners -->
+        <item name="WaywardEko_EkoCraft_3_Corners">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Sides -->
+        <item name="WaywardEko_EkoCraft_4_Sides">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60,
+                    12,
+                    4,
+                    8,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Top Ring & Spires -->
+        <item name="WaywardEko_EkoCraft_5_TopRingAndSpires">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:scaffoldingLadder
+                " />
+                <property name="Create_item_count"
+                    value="
+                    24,
+                    4,
+                    2,
+                    2,
+                    4,
+                    4,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Roof -->
+        <item name="WaywardEko_EkoCraft_6_Roof">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeTipStairs,
+                    concreteShapes:pillar50CenterPlate,
+                    concreteShapes:polePlate,
+                    concreteShapes:windowStoreCornerEmpty,
+                    concreteShapes:windowStoreOneSidedEmpty,
+                    concreteShapes:windowRampOutsideCornerFull,
+                    concreteShapes:windowRampFourSidedFull,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:industrialFenceTopSpiked
+                " />
+                <property name="Create_item_count"
+                    value="
+                    23,
+                    4,
+                    20,
+                    4,
+                    8,
+                    4,
+                    8,
+                    4,
+                    32
+                " />
+            </property>
+        </item>
+
+        <!-- Ramp -->
+        <item name="WaywardEko_EkoCraft_7_Ramp">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    2,
+                    8,
+                    8,
+                    8,
+                    16
+                " />
+            </property>
+        </item>
+
+        <!-- Entrance -->
+        <item name="WaywardEko_EkoCraft_8_Entrance">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow
+                " />
+                <property name="Create_item_count"
+                    value="
+                    14,
+                    24,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_EkoCraft_Shapes">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingLadder,
+
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop,
+
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:archInsideCorner02,
+
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:scaffoldingLadder,
+
+                    concreteShapes:wedgeTipStairs,
+                    concreteShapes:pillar50CenterPlate,
+                    concreteShapes:polePlate,
+                    concreteShapes:windowStoreCornerEmpty,
+                    concreteShapes:windowStoreOneSidedEmpty,
+                    concreteShapes:windowRampOutsideCornerFull,
+                    concreteShapes:windowRampFourSidedFull,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:industrialFenceTopSpiked,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    96,
+                    
+                    26,
+                    2,
+                    2,
+                    64,
+                    10,
+
+                    8,
+                    8,
+
+                    60,
+                    12,
+                    4,
+                    8,
+                    2,
+                    2,
+                    2,
+
+                    24,
+                    4,
+                    2,
+                    2,
+                    4,
+                    4,
+                    4,
+                    2,
+
+                    23,
+                    4,
+                    20,
+                    4,
+                    8,
+                    4,
+                    8,
+                    4,
+                    32,
+
+                    2,
+                    2,
+                    8,
+                    8,
+                    8,
+                    16,
+
+                    14,
+                    24,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+    </append>
+
+</IronSharkInc>

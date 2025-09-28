@@ -1,0 +1,417 @@
+<IronSharkInc>
+
+    <!-- Foundry (Horde Base) -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Foundry_Horde">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Foundry_Horde_Description" />
+        </item>
+
+        <!-- Step 1 - Pit -->
+        <item name="WaywardEko_Foundry_Horde_1_Pit">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledDiagonal1,
+                    concreteShapes:stairsFilledDiagonal2,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGatePlate
+                " />
+                <property name="Create_item_count"
+                    value="
+                    750,
+                    16,
+                    12,
+                    8,
+                    16,
+                    16
+                " />
+            </property>
+        </item>
+
+        <!-- Step 2 - Pillars & Floor -->
+        <item name="WaywardEko_Foundry_Horde_2_PillarsAndFloor">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+                    concreteShapes:cubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    130,
+                    12,
+                    90,
+                    4,
+                    8,
+                    4,
+                    32,
+                    4,
+                    4,
+                    16
+                " />
+            </property>
+        </item>
+
+        <!-- Step 3 - Side Walls -->
+        <item name="WaywardEko_Foundry_Horde_3_SideWalls">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ladderRound,
+                    concreteShapes:plateDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    64,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Step 4 - Fighting Positions -->
+        <item name="WaywardEko_Foundry_Horde_4_FightingPositions">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:wedge60,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:railing,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    12,
+                    16,
+                    8,
+                    12,
+                    4,
+                    20,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 5 - Pods & Front Fighting Position -->
+        <item name="WaywardEko_Foundry_Horde_5_PodsAndFrontFightingPosition">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60SlopeCorner02,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:cubeHalfWallDeco01,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    12,
+                    8,
+                    32,
+                    16,
+                    12,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 6 - Roof -->
+        <item name="WaywardEko_Foundry_Horde_6_Roof">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:halfBlockPoleQuarter,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:trellisSquare,
+                    concreteShapes:platePoleCornerFiller,
+                    concreteShapes:windowTrim
+                " />
+                <property name="Create_item_count"
+                    value="
+                    5,
+                    4,
+                    4,
+                    20,
+                    22,
+                    4,
+                    2,
+                    19,
+                    1,
+                    2,
+                    6,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Step 7 - Ladders & Bridge -->
+        <item name="WaywardEko_Foundry_Horde_7_LaddersAndBridge">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:rampFrame
+                " />
+                <property name="Create_item_count"
+                    value="
+                    86,
+                    120,
+                    28,
+                    44,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 8 - External Trim & Doors -->
+        <item name="WaywardEko_Foundry_Horde_8_ExternalTrimAndDoors">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateRamp,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    21,
+                    6,
+                    3
+                " />
+            </property>
+        </item>
+
+        <!-- Step 9 - Interior & Electrical -->
+        <item name="WaywardEko_Foundry_Horde_9_InteriorAndElectrical">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:doorTrim2m,
+                    concreteShapes:cube,
+                    concreteShapes:cubeHalfRampTip
+                " />
+                <property name="Create_item_count"
+                    value="
+                    3,
+                    6,
+                    2,
+                    2,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Foundry_Horde_Shapes">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledDiagonal1,
+                    concreteShapes:stairsFilledDiagonal2,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGatePlate,
+
+
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+                    concreteShapes:cubeHalf,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ladderRound,
+                    concreteShapes:plateDouble,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:wedge60,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:railing,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeHalf,
+
+
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60SlopeCorner02,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:cubeHalfWallDeco01,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:halfBlockPoleQuarter,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:trellisSquare,
+                    concreteShapes:platePoleCornerFiller,
+                    concreteShapes:windowTrim,
+
+
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:rampFrame,
+
+
+                    concreteShapes:plateRamp,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap,
+
+
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:doorTrim2m,
+                    concreteShapes:cube,
+                    concreteShapes:cubeHalfRampTip
+                " />
+                <property name="Create_item_count"
+                    value="
+                    750,
+                    16,
+                    12,
+                    8,
+                    16,
+                    16,
+
+
+                    130,
+                    12,
+                    90,
+                    4,
+                    8,
+                    4,
+                    32,
+                    4,
+                    4,
+                    16,
+
+
+                    64,
+                    2,
+                    2,
+
+
+                    12,
+                    16,
+                    8,
+                    12,
+                    4,
+                    20,
+                    4,
+                    4,
+
+
+                    12,
+                    8,
+                    32,
+                    16,
+                    12,
+                    4,
+
+
+                    5,
+                    4,
+                    4,
+                    20,
+                    22,
+                    4,
+                    2,
+                    19,
+                    1,
+                    2,
+                    6,
+                    4,
+                    2,
+
+
+                    86,
+                    120,
+                    28,
+                    44,
+                    4,
+
+
+                    6,
+                    21,
+                    6,
+                    3,
+
+
+                    3,
+                    6,
+                    2,
+                    2,
+                    5
+                " />
+            </property>
+        </item>
+
+    </append>
+
+</IronSharkInc>

@@ -1,0 +1,46 @@
+<IronSharkInc>
+
+    <!-- Eko Craft -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <recipe name="WaywardEko_EkoCraft_1_Pillars" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="144" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_2_BaseFloor" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="104" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_3_Corners" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="16" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_4_Sides" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="90" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_5_TopRingAndSpires" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="46" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_6_Roof" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="107" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_7_Ramp" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="44" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoCraft_8_Entrance" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="42" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_EkoCraft_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="593" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

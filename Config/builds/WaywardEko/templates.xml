@@ -1,0 +1,20 @@
+<IronSharkInc>
+    
+    <!-- Eko Templates -->
+    <append xpath="//items">
+
+        <item name="WaywardEko_LightGreen">
+            <property name="Extends" value="isiBuildBundle" />
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIconTint" value="0, 200, 0" />
+        </item>
+
+        <item name="WaywardEko_DarkGreen">
+            <property name="Extends" value="isiBuildBundle" />
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIconTint" value="0, 120, 0" />
+        </item>
+
+    </append>
+    
+</IronSharkInc>

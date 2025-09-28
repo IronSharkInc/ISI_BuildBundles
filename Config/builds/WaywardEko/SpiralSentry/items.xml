@@ -1,0 +1,398 @@
+<IronSharkInc>
+
+    <!-- Spiral Sentry -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_SpiralSentry">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_SpiralSentry_Description" />
+        </item>
+
+        <!-- Pillars -->
+        <item name="WaywardEko_SpiralSentry_01_Pillars">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:arrowSlitHalfRamp,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:pole
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    24,
+                    24
+                " />
+            </property>
+        </item>
+
+        <!-- Bottom Platform -->
+        <item name="WaywardEko_SpiralSentry_02_BottomPlatform">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:pole
+                " />
+                <property name="Create_item_count"
+                    value="
+                    66,
+                    2,
+                    12,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Base Side -->
+        <item name="WaywardEko_SpiralSentry_03_BaseSide">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:rampCubeHalfCornerBeveled,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingPlank,
+                    concreteShapes:rampCorner,
+                    concreteShapes:gableWedge60CubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    32,
+                    24,
+                    16,
+                    6,
+                    6,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Fighting Position -->
+        <item name="WaywardEko_SpiralSentry_04_FightingPosition">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:balusterRail02,
+                    concreteShapes:cubeHalf1mHole,
+                    concreteShapes:pillar0.025Double,
+                    concreteShapes:pillar0.25Triple,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedgeNarrowMid
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    1,
+                    1,
+                    6,
+                    2,
+                    2,
+                    1,
+                    2,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Center Hallway -->
+        <item name="WaywardEko_SpiralSentry_05_Hallway">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:rampWindow01Centered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Roof -->
+        <item name="WaywardEko_SpiralSentry_06_Roof">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60TipHalf,
+                    concreteShapes:cubeNarrowPyramidBase,
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    3,
+                    26,
+                    26,
+                    4,
+                    39
+                " />
+            </property>
+        </item>
+
+        <!-- Exterior Window Trim -->
+        <item name="WaywardEko_SpiralSentry_07_ExteriorWindowTrim">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:pole,
+                    concreteShapes:platePoleCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Basic Stair -->
+        <item name="WaywardEko_SpiralSentry_08_BasicStair">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    4,
+                    8,
+                    3,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- Enhanced Stair -->
+        <item name="WaywardEko_SpiralSentry_09_EnhancedStair">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    33,
+                    3,
+                    2,
+                    3,
+                    5,
+                    18
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Safety Catch -->
+        <item name="WaywardEko_SpiralSentry_10_SafetyCatch">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:poleHalfSideCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    1,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Base Bridge -->
+        <item name="WaywardEko_SpiralSentry_11_BaseBridge">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:cubeThreeQuarter,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    6,
+                    4,
+                    2,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- ALL SHAPES-->
+        <item name="WaywardEko_SpiralSentry_Shapes">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:arrowSlitHalfRamp,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:pole,
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:pole,
+
+                    concreteShapes:rampCubeHalfCornerBeveled,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingPlank,
+                    concreteShapes:rampCorner,
+                    concreteShapes:gableWedge60CubeHalf,
+
+                    concreteShapes:balusterRail02,
+                    concreteShapes:cubeHalf1mHole,
+                    concreteShapes:pillar0.025Double,
+                    concreteShapes:pillar0.25Triple,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedgeNarrowMid,
+
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:rampWindow01Centered,
+
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60TipHalf,
+                    concreteShapes:cubeNarrowPyramidBase,
+                    concreteShapes:cube,
+
+                    concreteShapes:pole,
+                    concreteShapes:platePoleCorner,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:ladderRound,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:poleHalfSideCentered,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:cubeThreeQuarter,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    24,
+                    24,
+
+                    66,
+                    2,
+                    12,
+                    4,
+                    4,
+
+                    16,
+                    64,
+                    48,
+                    32,
+                    12,
+                    12,
+                    4,
+
+                    4,
+                    2,
+                    2,
+                    12,
+                    4,
+                    4,
+                    2,
+                    4,
+                    2,
+
+                    4,
+                    4,
+
+                    3,
+                    26,
+                    26,
+                    4,
+                    39,
+
+                    8,
+                    4,
+
+                    6,
+                    4,
+                    8,
+                    3,
+                    5,
+
+                    33,
+                    3,
+                    2,
+                    3,
+                    5,
+                    18,
+
+                    2,
+                    2,
+
+                    6,
+                    6,
+                    4,
+                    2,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+    </append>
+
+</IronSharkInc>

@@ -1,0 +1,373 @@
+<IronSharkInc>
+
+    <!-- Spark -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Spark">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Spark_Description" />
+        </item>
+
+        <!-- The Spark || Stage 1 -->
+        <!-- Stage 1 | Step 1 - Base Side -->
+        <item name="WaywardEko_Spark_Stage1_Step1_BaseSide">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp8m01,
+                    woodShapes:poleSquareDouble,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:plate,
+                    woodShapes:wedge60SlopeMiddle,
+                    woodShapes:wedgeTipFull,
+                    woodShapes:ladderRound,
+                    woodShapes:rampInsideCornerFull,
+                    woodShapes:plateCorner,
+                    woodShapes:wedgeNarrowLowCorner,
+
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:cubeBeveledCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    36,
+                    3,
+                    1,
+                    12,
+                    3,
+                    2,
+                    12,
+                    2,
+                    9,
+                    9,
+                    2,
+                    2,
+                    1,
+
+                    6,
+                    20,
+                    2,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 2 - Pit -->
+        <item name="WaywardEko_Spark_Stage1_Step2_Pit">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp,
+                    woodShapes:stairsFilledVerticalUV,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh,
+                    woodShapes:plateHalf,
+                    woodShapes:plateRampHalfLeft,
+                    woodShapes:plateRampHalfRight,
+
+                    cobblestoneShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    96,
+                    8,
+                    8,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    2,
+
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 3 - Ladders & Approach -->
+        <item name="WaywardEko_Spark_Stage1_Step3_LaddersAndApproach">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:securityGateCentered,
+                    cobblestoneShapes:securityGatePlate,
+                    cobblestoneShapes:metalTruss3D,
+                    cobblestoneShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    5,
+                    3,
+                    21,
+                    30
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Optional Dog Ramp -->
+        <item name="WaywardEko_Spark_Stage1_Step4_OptionalDogRamp">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:ramp,
+                    woodShapes:cube,
+                    woodShapes:wedge60,
+                    woodShapes:securityGateCentered,
+
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:poleCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    21,
+                    2,
+                    1,
+                    1,
+
+                    2,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- The Spark || Stage 2 -->
+        <!-- Stage 2 | Step 1 - Upgrade to Cobblestone -->
+        <!-- Stage 2 | Step 2 - Pillars Reinforcement -->
+        <item name="WaywardEko_Spark_Stage2_Step2_PillarsReinforcement">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:plateWedge60Filler
+                " />
+                <property name="Create_item_count"
+                    value="
+                    18,
+                    18
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 3 - Electric Fences -->
+        <item name="WaywardEko_Spark_Stage2_Step3_ElectricFences">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:rampIncline,
+                    cobblestoneShapes:poleSquareSideCenteredCornerBracket
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 4 - Pit & Fighting Position Upgrades -->
+        <item name="WaywardEko_Spark_Stage2_Step4_PitAndFightingPositionUpgrades">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:ramp6m01,
+                    cobblestoneShapes:ramp6m02,
+                    cobblestoneShapes:ramp6m03,
+                    cobblestoneShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    2,
+                    2,
+                    22
+                " />
+            </property>
+        </item>
+
+        <!-- The Spark || Stage 3 -->
+        <!-- Stage 3 | Step 1 - Upgrade to Concrete -->
+        <!-- Stage 3 | Step 2 - Pit Upgrade -->
+        <item name="WaywardEko_Spark_Stage3_Step2_PitUpgrade">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    8
+                " />
+            </property>
+        </item>
+        <!-- Stage 3 | Step 3 - Final Upgrades -->
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Spark_Shapes">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plate,
+                    concreteShapes:wedge60SlopeMiddle,
+                    concreteShapes:wedgeTipFull,
+                    concreteShapes:ladderRound,
+                    concreteShapes:rampInsideCornerFull,
+                    concreteShapes:plateCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:cubeBeveledCorner,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+
+                    concreteShapes:cube,
+
+
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:metalTruss3D,
+                    concreteShapes:ladderRound,
+
+
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:securityGateCentered,
+
+                    concreteShapes:cube,
+                    concreteShapes:poleCentered,
+
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:plateWedge60Filler,
+
+
+                    concreteShapes:rampIncline,
+                    concreteShapes:poleSquareSideCenteredCornerBracket,
+
+
+                    concreteShapes:ramp6m01,
+                    concreteShapes:ramp6m02,
+                    concreteShapes:ramp6m03,
+                    concreteShapes:cube,
+
+
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    36,
+                    3,
+                    1,
+                    12,
+                    3,
+                    2,
+                    12,
+                    2,
+                    9,
+                    9,
+                    2,
+                    2,
+                    1,
+
+                    6,
+                    20,
+                    2,
+                    1,
+
+                    
+                    96,
+                    8,
+                    8,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    2,
+
+                    8,
+
+
+                    5,
+                    3,
+                    21,
+                    30,
+
+
+                    21,
+                    2,
+                    1,
+                    1,
+
+                    2,
+                    5,
+
+                    18,
+                    18,
+
+
+                    6,
+                    2,
+
+
+                    2,
+                    2,
+                    2,
+                    22,
+
+
+                    4,
+                    8
+                " />
+            </property>
+        </item>
+
+    </append>
+
+</IronSharkInc>

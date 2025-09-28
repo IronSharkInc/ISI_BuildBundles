@@ -1,0 +1,58 @@
+<IronSharkInc>
+
+    <!-- Spiral Sentry -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <recipe name="WaywardEko_SpiralSentry_01_Pillars" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="96" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_02_BottomPlatform" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="88" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_03_BaseSide" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="94" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_04_FightingPosition" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="18" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_05_Hallway" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="8" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_06_Roof" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="98" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_07_ExteriorWindowTrim" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="12" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_08_BasicStair" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="26" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_09_EnhancedStair" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="64" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_10_SafetyCatch" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="2" />
+        </recipe>
+
+        <recipe name="WaywardEko_SpiralSentry_11_BaseBridge" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="24" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_SpiralSentry_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="644" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

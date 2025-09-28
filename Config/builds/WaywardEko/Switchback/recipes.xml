@@ -1,0 +1,31 @@
+<IronSharkInc>
+
+    <!-- Switchback -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <recipe name="WaywardEko_Switchback_1_Day07" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="420" />
+        </recipe>
+
+        <recipe name="WaywardEko_Switchback_2_Day14" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="350" />
+        </recipe>
+
+        <recipe name="WaywardEko_Switchback_3_Day21" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="116" />
+            <ingredient name="concreteShapes:VariantHelper" count="59" />
+        </recipe>
+
+        <recipe name="WaywardEko_Switchback_4_Day28" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="76" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_Switchback_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="1021" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

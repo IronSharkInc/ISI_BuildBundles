@@ -1,0 +1,53 @@
+<IronSharkInc>
+
+    <!-- Spark -->
+    <append xpath="//recipes">
+
+        <!-- Step Bundles -->
+        <!-- Stage 1 -->
+        <recipe name="WaywardEko_Spark_Stage1_Step1_BaseSide" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="142" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="29" />
+        </recipe>
+
+        <recipe name="WaywardEko_Spark_Stage1_Step2_Pit" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="132" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="8" />
+        </recipe>
+
+        <recipe name="WaywardEko_Spark_Stage1_Step3_LaddersAndApproach" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="59" />
+        </recipe>
+
+        <recipe name="WaywardEko_Spark_Stage1_Step4_OptionalDogRamp" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="25" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="7" />
+        </recipe>
+
+        <!-- Stage 2 -->
+        <recipe name="WaywardEko_Spark_Stage2_Step2_PillarsReinforcement" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="36" />
+        </recipe>
+
+        <recipe name="WaywardEko_Spark_Stage2_Step3_ElectricFences" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="8" />
+        </recipe>
+
+        <recipe name="WaywardEko_Spark_Stage2_Step4_PitAndFightingPositionUpgrades" count="1"
+            craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="28" />
+        </recipe>
+
+        <!-- Stage 3 -->
+        <recipe name="WaywardEko_Spark_Stage3_Step2_PitUpgrade" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="12" />
+        </recipe>
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_Spark_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="486" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>
