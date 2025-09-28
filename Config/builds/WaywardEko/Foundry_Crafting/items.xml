@@ -47,7 +47,7 @@
                 <property name="Create_item"
                     value="
                     concreteShapes:cube,
-                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
                     concreteShapes:cubeCornerBeveled,
                     concreteShapes:wedge60InclineFiller,
                     concreteShapes:bookcaseCubeFull,
@@ -166,7 +166,7 @@
             <property class="Action0">
                 <property name="Create_item"
                     value="
-                    concreteShapes:cube,
+                    concreteShapes:wedge60Tip,
                     concreteShapes:wedge60,
                     concreteShapes:bookcaseFull,
                     concreteShapes:pipeJoint,
@@ -251,7 +251,7 @@
 
 
                     concreteShapes:cube,
-                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
                     concreteShapes:cubeCornerBeveled,
                     concreteShapes:wedge60InclineFiller,
                     concreteShapes:bookcaseCubeFull,
@@ -292,7 +292,7 @@
                     concreteShapes:wedgeNarrowTipCorner,
 
 
-                    concreteShapes:cube,
+                    concreteShapes:wedge60Tip,
                     concreteShapes:wedge60,
                     concreteShapes:bookcaseFull,
                     concreteShapes:pipeJoint,

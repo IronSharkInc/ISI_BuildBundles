@@ -186,7 +186,7 @@
             <property class="Action0">
                 <property name="Create_item"
                     value="
-                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:metalTruss3D,
                     concreteShapes:ladderRound,
                     concreteShapes:securityGateCentered,
                     concreteShapes:securityGatePlate,
@@ -311,7 +311,7 @@
                     concreteShapes:windowTrim,
 
 
-                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:metalTruss3D,
                     concreteShapes:ladderRound,
                     concreteShapes:securityGateCentered,
                     concreteShapes:securityGatePlate,
