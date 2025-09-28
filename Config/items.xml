@@ -4,197 +4,1299 @@
     <append xpath="//items">
 
         <item name="isiBuildBundle">
-            <property name="CreativeMode" value="None"/>
-            <property name="CustomIcon" value="bundleTools"/>
-            <property name="ItemTypeIcon" value="bundle"/>
-            <property name="Material" value="Mwood_weak_shapes"/>
-            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
-            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
-            <property name="SellableToTrader" value="false"/>
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIcon" value="bundleTools" />
+            <property name="CustomIconTint" value="3cb44b" />
+            <property name="DescriptionKey" value="isiBuildBundleDescription" />
+            <property name="ItemTypeIcon" value="bundle" />
+            <property name="Material" value="Mwood_weak_shapes" />
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+            <property name="SellableToTrader" value="false" />
             <property class="Action0">
-                <property name="Class" value="OpenBundle"/>
+                <property name="Class" value="OpenBundle" />
             </property>
         </item>
 
     </append>
 
-    <!-- Switchback -->
+    <!-- Eko Templates -->
     <append xpath="//items">
 
-        <item name="ekoSwitchbackBundle">
-            <property name="Extends" value="isiBuildBundle"/>
-            <property name="CreativeMode" value="None"/>
-            <property name="CustomIconTint" value="3cb44b"/>
-            <property name="DescriptionKey" value="ekoSwitchbackBundleDescription"/>
+        <item name="WaywardEko_LightGreen">
+            <property name="Extends" value="isiBuildBundle" />
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIconTint" value="0, 200, 0" />
         </item>
 
-        <item name="ekoSwitchbackDay07Shapes">
-            <property name="Extends" value="ekoSwitchbackBundle"/>
+        <item name="WaywardEko_DarkGreen">
+            <property name="Extends" value="isiBuildBundle" />
+            <property name="CreativeMode" value="None" />
+            <property name="CustomIconTint" value="0, 120, 0" />
+        </item>
+
+    </append>
+
+    <!-- Eko Box -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_EkoBox">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_EkoBox_Description" />
+        </item>
+
+        <!-- Step Bundles -->
+        <item name="WaywardEko_EkoBox_1_Build">
+            <property name="Extends" value="WaywardEko_EkoBox" />
             <property class="Action0">
-                <property name="Create_item" value="
-                    woodShapes:ramp,
-                    woodShapes:stairsFilledVerticalUV,
-                    woodShapes:wedge60Tip,
-                    woodShapes:cubeHalf,
-                    woodShapes:cubeCornerBeveled,
+                <property name="Create_item"
+                    value="
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
                     woodShapes:cubeHalfRampTip,
                     woodShapes:cube,
+                    woodShapes:wedge60Offset,
+                    woodShapes:wedgeNarrowLow,
                     woodShapes:scaffoldingLadder,
-                    woodShapes:wedge60TipCornerCubeQuarter,
-                    woodShapes:cubeQuarter,
-                    woodShapes:cubeNarrowPyramidBase,
-                    woodShapes:cubeQuarterCenter,
-                    woodShapes:cubeQuarterCenteredPyramid,
+                    woodShapes:wedge60TipCornerBase,
+                    woodShapes:wedge60TipCornerTop,
+                    woodShapes:cubeHalf,
+                    woodShapes:windowIndustrial02Full,
+                    woodShapes:wedgeNarrowHighCorner,
+                    woodShapes:wedgeNarrowMidCorner,
+                    woodShapes:wedgeNarrowLowCorner,
+                    woodShapes:polePlate,
+                    woodShapes:industrialFenceTopSpiked,
+                    woodShapes:cubeBeveledCorner,
+                    woodShapes:rampInclineHalfRight,
+                    woodShapes:rampInclineFillerHalfRight,
+                    woodShapes:rampInclineHalfLeft,
+                    woodShapes:rampInclineFillerHalfLeft,
+                    woodShapes:stairs02,
+                    woodShapes:pillar0.0125SideCentered,
                     woodShapes:balusterRail02,
                     woodShapes:pole,
-                    woodShapes:polePlateHalf,
-                    woodShapes:poleSquareDoubleTop
-                "/>
-                <property name="Create_item_count" value="
-                    34,
-                    18,
-                    2,
-                    4,
-                    3,
-                    4,
-                    230,
-                    16,
-                    24,
-                    60,
-                    3,
-                    10,
-                    10,
-                    1,
-                    1,
-                    1,
-                    1
-                "/>
-            </property>
-        </item>
-
-        <item name="ekoSwitchbackDay14Shapes">
-            <property name="Extends" value="ekoSwitchbackBundle"/>
-            <property class="Action0">
-                <property name="Create_item" value="
-                    woodShapes:cubeQuarterCenteredPyramid,
-                    woodShapes:wedge60TipCornerCubeQuarter,
-                    woodShapes:cubeQuarter,
-                    woodShapes:cube,
-                    woodShapes:cubeCornerBeveled,
-                    woodShapes:windowIndustrial01Full,
-                    woodShapes:cubeBeveledCorner,
-                    woodShapes:cubeCornerBeveledOutsideCorner,
-                    woodShapes:wedgeNarrowTip,
-                    woodShapes:polePlate,
-                    woodShapes:poleSquareDouble,
-                    woodShapes:poleSquareDoubleTop,
-                    woodShapes:scaffoldingLadder,
-                    woodShapes:ramp,
-                    woodShapes:rampCorner,
-                    woodShapes:rampInclineFiller,
-                    woodShapes:wedge60Tip,
-                    woodShapes:wedgeNarrowLow
-                "/>
-                <property name="Create_item_count" value="
-                    30,
-                    8,
+                    woodShapes:poleSquareDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    106,
                     20,
-                    140,
-                    55,
-                    30,
-                    2,
-                    4,
-                    1,
-                    4,
-                    11,
-                    1,
-                    5,
-                    12,
+                    34,
+                    8,
+                    24,
+                    10,
+                    8,
+                    8,
+                    50,
                     8,
                     4,
-                    3,
+                    4,
+                    4,
+                    35,
+                    24,
+                    2,
+                    7,
+                    5,
+                    7,
+                    5,
+                    14,
+                    12,
+                    4,
+                    4,
                     4
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSwitchbackDay21Shapes">
-            <property name="Extends" value="ekoSwitchbackBundle"/>
+        <!-- All the Shapes -->
+        <item name="WaywardEko_EkoBox_Shapes">
+            <property name="Extends" value="WaywardEko_EkoBox" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeHalfRampTip,
                     concreteShapes:cube,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:polePlate,
+                    concreteShapes:industrialFenceTopSpiked,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:rampInclineHalfRight,
+                    concreteShapes:rampInclineFillerHalfRight,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:rampInclineFillerHalfLeft,
+                    concreteShapes:stairs02,
+                    concreteShapes:pillar0.0125SideCentered,
+                    concreteShapes:balusterRail02,
+                    concreteShapes:pole,
+                    concreteShapes:poleSquareDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    106,
+                    20,
+                    34,
+                    8,
+                    24,
+                    10,
+                    8,
+                    8,
+                    50,
+                    8,
+                    4,
+                    4,
+                    4,
+                    35,
+                    24,
+                    2,
+                    7,
+                    5,
+                    7,
+                    5,
+                    14,
+                    12,
+                    4,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+    </append>
+
+    <!-- Eko Craft -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_EkoCraft">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_EkoCraft_Description" />
+        </item>
+
+        <!-- Pillars -->
+        <item name="WaywardEko_EkoCraft_1_Pillars">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    96
+                " />
+            </property>
+        </item>
+
+        <!-- Base Floor -->
+        <item name="WaywardEko_EkoCraft_2_BaseFloor">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingLadder
+                " />
+                <property name="Create_item_count"
+                    value="
+                    26,
+                    2,
+                    2,
+                    64,
+                    10
+                " />
+            </property>
+        </item>
+
+        <!-- Corners -->
+        <item name="WaywardEko_EkoCraft_3_Corners">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Sides -->
+        <item name="WaywardEko_EkoCraft_4_Sides">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60,
+                    12,
+                    4,
+                    8,
+                    2,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Top Ring & Spires -->
+        <item name="WaywardEko_EkoCraft_5_TopRingAndSpires">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:scaffoldingLadder
+                " />
+                <property name="Create_item_count"
+                    value="
+                    24,
+                    4,
+                    2,
+                    2,
+                    4,
+                    4,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Roof -->
+        <item name="WaywardEko_EkoCraft_6_Roof">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeTipStairs,
+                    concreteShapes:pillar50CenterPlate,
+                    concreteShapes:polePlate,
+                    concreteShapes:windowStoreCornerEmpty,
+                    concreteShapes:windowStoreOneSidedEmpty,
+                    concreteShapes:windowRampOutsideCornerFull,
+                    concreteShapes:windowRampFourSidedFull,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:industrialFenceTopSpiked
+                " />
+                <property name="Create_item_count"
+                    value="
+                    23,
+                    4,
+                    20,
+                    4,
+                    8,
+                    4,
+                    8,
+                    4,
+                    32
+                " />
+            </property>
+        </item>
+
+        <!-- Ramp -->
+        <item name="WaywardEko_EkoCraft_7_Ramp">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
                     concreteShapes:wedge60,
                     concreteShapes:wedge60Tip,
-                    concreteShapes:stairsFilledVerticalUV,
-                    concreteShapes:stairsFilledCorner,
-                    concreteShapes:scaffoldingLadder,
-                    concreteShapes:ramp,
-                    concreteShapes:gableInvertedQuarter,
-                    concreteShapes:securityGateCentered,
-                    concreteShapes:securityGateCenteredDiagonal,
-
-                    cobblestoneShapes:cube,
-                    cobblestoneShapes:wedge60TipCornerCubeQuarter,
-                    cobblestoneShapes:cubeQuarter,
-                    cobblestoneShapes:wedgeNarrowHigh,
-                    cobblestoneShapes:wedgeNarrowMid,
-                    cobblestoneShapes:wedgeNarrowLow,
-                    cobblestoneShapes:wedgeNarrowTip,
-                    cobblestoneShapes:stairsFilledVerticalUV,
-                    cobblestoneShapes:ramp
-                "/>
-                <property name="Create_item_count" value="
-                    14,
-                    5,
-                    5,
-                    12,
+                    concreteShapes:cube,
+                    concreteShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
                     2,
-                    4,
+                    2,
                     8,
-                    4,
-                    1,
-                    4,
-
-                    28,
                     8,
-                    24,
-                    2,
-                    2,
-                    2,
-                    2,
-                    22,
-                    26
-                "/>
+                    8,
+                    16
+                " />
             </property>
         </item>
 
-        <item name="ekoSwitchbackDay28Shapes">
-            <property name="Extends" value="ekoSwitchbackBundle"/>
+        <!-- Entrance -->
+        <item name="WaywardEko_EkoCraft_8_Entrance">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
-                <property name="Create_item" value="
-                    concreteShapes:plateRamp,
-                    concreteShapes:securityGatePlate,
-                    concreteShapes:wedgeNarrowLow,
+                <property name="Create_item"
+                    value="
                     concreteShapes:wedgeNarrowTip,
-                    concreteShapes:ramp,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow
+                " />
+                <property name="Create_item_count"
+                    value="
+                    14,
+                    24,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_EkoCraft_Shapes">
+            <property name="Extends" value="WaywardEko_EkoCraft" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
                     concreteShapes:cubeQuarter,
-                    concreteShapes:cubeQuarterCornerPyramid,
-                    concreteShapes:industrialFenceTop,
+                    
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingLadder,
+
+                    concreteShapes:wedge60TipCornerBase,
+                    concreteShapes:wedge60TipCornerTop,
+
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:archInsideCorner02,
+
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:wedgeNarrowHighCorner,
+                    concreteShapes:wedgeNarrowMidCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:scaffoldingLadder,
+
+                    concreteShapes:wedgeTipStairs,
+                    concreteShapes:pillar50CenterPlate,
+                    concreteShapes:polePlate,
+                    concreteShapes:windowStoreCornerEmpty,
+                    concreteShapes:windowStoreOneSidedEmpty,
+                    concreteShapes:windowRampOutsideCornerFull,
+                    concreteShapes:windowRampFourSidedFull,
+                    concreteShapes:windowStoreCornerFull,
+                    concreteShapes:industrialFenceTopSpiked,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedgeNarrowLow
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    96,
+                    
+                    26,
+                    2,
+                    2,
+                    64,
+                    10,
+
+                    8,
+                    8,
+
+                    60,
+                    12,
+                    4,
+                    8,
+                    2,
+                    2,
+                    2,
+
+                    24,
+                    4,
+                    2,
+                    2,
+                    4,
+                    4,
+                    4,
+                    2,
+
+                    23,
+                    4,
+                    20,
+                    4,
+                    8,
+                    4,
+                    8,
+                    4,
+                    32,
+
+                    2,
+                    2,
+                    8,
+                    8,
+                    8,
+                    16,
+
+                    14,
+                    24,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+    </append>
+
+    <!-- Foundry (Crafting Base) -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Foundry_Crafting">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Foundry_Crafting_Description" />
+        </item>
+
+        <!-- Bill of Materials -->
+        <!-- Step 1 - Ramp -->
+        <item name="WaywardEko_Foundry_Crafting_1_Ramp">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp6m01,
+                    concreteShapes:ramp6m02,
+                    concreteShapes:ramp6m03,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60InclineFiller,
+                    concreteShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    3,
+                    3,
+                    3,
+                    34,
+                    24,
+                    9,
+                    3
+                " />
+            </property>
+        </item>
+
+        <!-- Step 2 - Frame -->
+        <item name="WaywardEko_Foundry_Crafting_2_Frame">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60InclineFiller,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:ladderRound,
+                    concreteShapes:airDuct,
+                    concreteShapes:stairsHollow,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    140,
+                    44,
+                    12,
+                    8,
+                    2,
+                    4,
+                    122,
+                    3,
+                    3,
+                    1,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Step 3 - Garage Level Walls -->
+        <item name="WaywardEko_Foundry_Crafting_3_GarageLevelWalls">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:window01,
+                    concreteShapes:plateDouble,
+                    concreteShapes:plateRamp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    55,
+                    12,
+                    6,
+                    12,
+                    2,
+                    3
+                " />
+            </property>
+        </item>
+
+        <!-- Step 4 - Crafting Level Walls -->
+        <item name="WaywardEko_Foundry_Crafting_4_CraftingLevelWalls">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:window01,
+                    concreteShapes:rampWindow01Centered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    87,
+                    6,
+                    8,
+                    9,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 5 - Roof -->
+        <item name="WaywardEko_Foundry_Crafting_5_Roof">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:ladderRound,
+                    concreteShapes:wedge60InsideCorner2,
+                    concreteShapes:wedge60Corner,
+                    concreteShapes:wedge60,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:airDuct,
                     concreteShapes:halfBlockPillar50,
-                    concreteShapes:pillar50
-                "/>
-                <property name="Create_item_count" value="
+                    concreteShapes:ramp,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:wedgeNarrowTipCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    5,
+                    4,
+                    2,
+                    10,
+                    3,
+                    26,
+                    4,
+                    9,
+                    4,
+                    32,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 6 - Crafting Room -->
+        <item name="WaywardEko_Foundry_Crafting_6_CraftingRoom">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:pipeJoint,
+                    concreteShapes:pipeCorner,
+                    concreteShapes:pillar50,
+                    concreteShapes:plateWedge60TipPipe,
+                    concreteShapes:plateCounterSquareHole,
+                    concreteShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    2,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    5,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Step 7 - Electrical Setup -->
+        <!-- Step 8 - External Trim & Final Wiring -->
+        <item name="WaywardEko_Foundry_Crafting_8_ExternalTrimAndFinalWiring">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateRamp,
+                    concreteShapes:plate,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap
+                " />
+                <property name="Create_item_count"
+                    value="
+                    28,
+                    3,
+                    53,
+                    6,
+                    3
+                " />
+            </property>
+        </item>
+
+        <!-- Step 9 - Garden (Optional) -->
+        <item name="WaywardEko_Foundry_Crafting_9_GardenOptional">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:industrialFenceBottom02,
+                    concreteShapes:industrialFenceTopSpiked,
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    46,
+                    24,
+                    127
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Foundry_Crafting_Shapes">
+            <property name="Extends" value="WaywardEko_Foundry_Crafting" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp6m01,
+                    concreteShapes:ramp6m02,
+                    concreteShapes:ramp6m03,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60InclineFiller,
+                    concreteShapes:ramp,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60InclineFiller,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:ladderRound,
+                    concreteShapes:airDuct,
+                    concreteShapes:stairsHollow,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:ramp,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:window01,
+                    concreteShapes:plateDouble,
+                    concreteShapes:plateRamp,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:bookcaseCubeFull,
+                    concreteShapes:window01,
+                    concreteShapes:rampWindow01Centered,
+
+
+                    concreteShapes:ladderRound,
+                    concreteShapes:wedge60InsideCorner2,
+                    concreteShapes:wedge60Corner,
+                    concreteShapes:wedge60,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:airDuct,
+                    concreteShapes:halfBlockPillar50,
+                    concreteShapes:ramp,
+                    concreteShapes:wedgeNarrowLowCorner,
+                    concreteShapes:wedgeNarrowTipCorner,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:pipeJoint,
+                    concreteShapes:pipeCorner,
+                    concreteShapes:pillar50,
+                    concreteShapes:plateWedge60TipPipe,
+                    concreteShapes:plateCounterSquareHole,
+                    concreteShapes:ramp,
+
+
+                    concreteShapes:plateRamp,
+                    concreteShapes:plate,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap,
+
+
+                    concreteShapes:industrialFenceBottom02,
+                    concreteShapes:industrialFenceTopSpiked,
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    3,
+                    3,
+                    3,
+                    34,
+                    24,
+                    9,
+                    3,
+
+
+                    140,
+                    44,
+                    12,
+                    8,
+                    2,
+                    4,
+                    122,
+                    3,
+                    3,
+                    1,
+                    1,
+
+
+                    55,
+                    12,
+                    6,
+                    12,
+                    2,
+                    3,
+
+
+                    87,
+                    6,
+                    8,
+                    9,
+                    4,
+
+
+                    5,
+                    4,
+                    2,
+                    10,
+                    3,
+                    26,
+                    4,
+                    9,
+                    4,
+                    32,
+                    4,
+                    4,
+
+
+                    2,
+                    2,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    5,
+                    1,
+
+
+                    28,
+                    3,
+                    53,
+                    6,
+                    3,
+
+
+                    46,
+                    24,
+                    127
+                " />
+            </property>
+        </item>
+
+    </append>
+
+    <!-- Foundry (Horde Base) -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Foundry_Horde">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Foundry_Horde_Description" />
+        </item>
+
+        <!-- Step 1 - Pit -->
+        <item name="WaywardEko_Foundry_Horde_1_Pit">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledDiagonal1,
+                    concreteShapes:stairsFilledDiagonal2,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGatePlate
+                " />
+                <property name="Create_item_count"
+                    value="
+                    750,
+                    16,
+                    12,
+                    8,
+                    16,
+                    16
+                " />
+            </property>
+        </item>
+
+        <!-- Step 2 - Pillars & Floor -->
+        <item name="WaywardEko_Foundry_Horde_2_PillarsAndFloor">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+                    concreteShapes:cubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    130,
+                    12,
+                    90,
+                    4,
+                    8,
+                    4,
+                    32,
+                    4,
+                    4,
+                    16
+                " />
+            </property>
+        </item>
+
+        <!-- Step 3 - Side Walls -->
+        <item name="WaywardEko_Foundry_Horde_3_SideWalls">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ladderRound,
+                    concreteShapes:plateDouble
+                " />
+                <property name="Create_item_count"
+                    value="
+                    64,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Step 4 - Fighting Positions -->
+        <item name="WaywardEko_Foundry_Horde_4_FightingPositions">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:wedge60,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:railing,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    12,
+                    16,
                     8,
                     12,
                     4,
+                    20,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 5 - Pods & Front Fighting Position -->
+        <item name="WaywardEko_Foundry_Horde_5_PodsAndFrontFightingPosition">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60SlopeCorner02,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:cubeHalfWallDeco01,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    12,
+                    8,
+                    32,
+                    16,
+                    12,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 6 - Roof -->
+        <item name="WaywardEko_Foundry_Horde_6_Roof">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:halfBlockPoleQuarter,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:trellisSquare,
+                    concreteShapes:platePoleCornerFiller,
+                    concreteShapes:windowTrim
+                " />
+                <property name="Create_item_count"
+                    value="
+                    5,
+                    4,
+                    4,
+                    20,
+                    22,
                     4,
                     2,
+                    19,
+                    1,
+                    2,
+                    6,
                     4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Step 7 - Ladders & Bridge -->
+        <item name="WaywardEko_Foundry_Horde_7_LaddersAndBridge">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:rampFrame
+                " />
+                <property name="Create_item_count"
+                    value="
+                    86,
+                    120,
+                    28,
+                    44,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Step 8 - External Trim & Doors -->
+        <item name="WaywardEko_Foundry_Horde_8_ExternalTrimAndDoors">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateRamp,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    21,
+                    6,
+                    3
+                " />
+            </property>
+        </item>
+
+        <!-- Step 9 - Interior & Electrical -->
+        <item name="WaywardEko_Foundry_Horde_9_InteriorAndElectrical">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:doorTrim2m,
+                    concreteShapes:cube,
+                    concreteShapes:cubeHalfRampTip
+                " />
+                <property name="Create_item_count"
+                    value="
+                    3,
+                    6,
+                    2,
+                    2,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Foundry_Horde_Shapes">
+            <property name="Extends" value="WaywardEko_Foundry_Horde" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledDiagonal1,
+                    concreteShapes:stairsFilledDiagonal2,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGatePlate,
+
+
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+                    concreteShapes:cubeHalf,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ladderRound,
+                    concreteShapes:plateDouble,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:wedge60,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:railing,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cubeHalf,
+
+
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedge60SlopeCorner02,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:cubeHalfWallDeco01,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:halfBlockPoleQuarter,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeHalfPillar0.025,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:ladderRound,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:trellisSquare,
+                    concreteShapes:platePoleCornerFiller,
+                    concreteShapes:windowTrim,
+
+
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:ladderRound,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:rampFrame,
+
+
+                    concreteShapes:plateRamp,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:catwalkV2RailOnly,
+                    concreteShapes:catwalkV2RailOnlyDblCap,
+
+
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:doorTrim2m,
+                    concreteShapes:cube,
+                    concreteShapes:cubeHalfRampTip
+                " />
+                <property name="Create_item_count"
+                    value="
+                    750,
+                    16,
+                    12,
+                    8,
+                    16,
+                    16,
+
+
+                    130,
+                    12,
+                    90,
+                    4,
+                    8,
                     4,
                     32,
+                    4,
+                    4,
+                    16,
+
+
+                    64,
                     2,
-                    4
-                "/>
+                    2,
+
+
+                    12,
+                    16,
+                    8,
+                    12,
+                    4,
+                    20,
+                    4,
+                    4,
+
+
+                    12,
+                    8,
+                    32,
+                    16,
+                    12,
+                    4,
+
+
+                    5,
+                    4,
+                    4,
+                    20,
+                    22,
+                    4,
+                    2,
+                    19,
+                    1,
+                    2,
+                    6,
+                    4,
+                    2,
+
+
+                    86,
+                    120,
+                    28,
+                    44,
+                    4,
+
+
+                    6,
+                    21,
+                    6,
+                    3,
+
+
+                    3,
+                    6,
+                    2,
+                    2,
+                    5
+                " />
             </property>
         </item>
 
@@ -202,18 +1304,20 @@
 
     <!-- Seeker's Bane -->
     <append xpath="//items">
-        
-        <item name="ekoSeekersBaneBundle">
-            <property name="Extends" value="isiBuildBundle"/>
-            <property name="CreativeMode" value="None"/>
-            <property name="CustomIconTint" value="911eb4"/>
-            <property name="DescriptionKey" value="ekoSeekersBaneBundleDescription"/>
+
+        <!-- Template -->
+        <item name="WaywardEko_SeekersBane">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_SeekersBane_Description" />
         </item>
 
-        <item name="ekoSeekersBaneStage1Step1PillarsAndPlatform">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 1 | Step 1 - Pillars & Platform -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     woodShapes:cube,
                     woodShapes:metalTruss3D,
                     woodShapes:doorTrim1mDouble,
@@ -234,8 +1338,9 @@
                     cobblestoneShapes:ramp8m08,
                     cobblestoneShapes:cubeCornerBeveled,
                     cobblestoneShapes:wedge60SlopeCorner03
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     60,
                     16,
                     2,
@@ -256,14 +1361,16 @@
                     2,
                     2,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage1Step2Ramp">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 1 | Step 2 - Ramp -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step2_Ramp">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     woodShapes:cube,
                     woodShapes:ramp,
                     woodShapes:ramp8m01,
@@ -280,8 +1387,9 @@
                     woodShapes:wedgeNarrowHigh,
                     woodShapes:poleSideCentered,
                     woodShapes:poleHalfSideCentered
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     45,
                     21,
                     6,
@@ -298,14 +1406,16 @@
                     1,
                     8,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage1Step3FightingPosition">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 1 | Step 3 - Fighting Position -->
+        <item name="WaywardEko_SeekersBane_Stage1_Step3_FightingPosition">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     woodShapes:cube,
                     woodShapes:wedge60,
                     woodShapes:wedge60Tip,
@@ -323,8 +1433,9 @@
                     woodShapes:wedgeNarrowLow,
                     woodShapes:wedgeNarrowMid,
                     woodShapes:wedgeNarrowHigh
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     30,
                     10,
                     4,
@@ -342,14 +1453,16 @@
                     2,
                     2,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage2Step2PillarsAndPlatform">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 2 | Step 2 - Pillars & Platform -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     cobblestoneShapes:cube,
                     cobblestoneShapes:cubeBeveledCorner,
                     cobblestoneShapes:cubeCornerBeveledBookcaseFull,
@@ -365,8 +1478,9 @@
                     cobblestoneShapes:ramp8m08,
                     cobblestoneShapes:cubeCornerBeveled,
                     cobblestoneShapes:wedge60SlopeCorner03
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     50,
                     1,
                     24,
@@ -382,14 +1496,16 @@
                     2,
                     2,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage2Step3SecondRamp">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 2 | Step 3 - Second Ramp -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step3_SecondRamp">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     cobblestoneShapes:cube,
                     cobblestoneShapes:ramp,
                     cobblestoneShapes:ramp8m01,
@@ -406,8 +1522,9 @@
                     cobblestoneShapes:wedgeNarrowHigh,
                     cobblestoneShapes:poleSideCentered,
                     cobblestoneShapes:poleHalfSideCentered
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     45,
                     21,
                     6,
@@ -424,14 +1541,16 @@
                     1,
                     8,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage2Step4FightingPosition">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 2 | Step 4 - Second Fighting Position -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step4_FightingPosition">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     cobblestoneShapes:cube,
                     cobblestoneShapes:wedge60,
                     cobblestoneShapes:wedge60Tip,
@@ -449,8 +1568,9 @@
                     cobblestoneShapes:wedgeNarrowLow,
                     cobblestoneShapes:wedgeNarrowMid,
                     cobblestoneShapes:wedgeNarrowHigh
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     30,
                     10,
                     4,
@@ -468,14 +1588,16 @@
                     2,
                     2,
                     2
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage2Step5CenterPillarReinforcement">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 2 | Step 5 - Center Pillar Reinforcement -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step5_CenterPillarReinforcement">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     cobblestoneShapes:cube,
                     cobblestoneShapes:ramp8m01,
                     cobblestoneShapes:ramp8m02,
@@ -485,8 +1607,9 @@
                     cobblestoneShapes:ramp8m06,
                     cobblestoneShapes:ramp8m07,
                     cobblestoneShapes:ramp8m08
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     44,
                     4,
                     4,
@@ -496,32 +1619,37 @@
                     4,
                     4,
                     4
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage2Step6SideWallsAndRoof">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 2 | Step 6 - Side Walls and Roof -->
+        <item name="WaywardEko_SeekersBane_Stage2_Step6_SideWallsAndRoof">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     cobblestoneShapes:cube,
                     cobblestoneShapes:wedge60,
                     cobblestoneShapes:scaffoldingLadder,
                     cobblestoneShapes:window02Full
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     120,
                     10,
                     4,
                     4
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage3Step2RampExpansion">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 3 | Step 2 - Ramp Expansion -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     concreteShapes:cube,
                     concreteShapes:ramp,
                     concreteShapes:ramp8m01,
@@ -537,8 +1665,9 @@
                     concreteShapes:wedgeNarrowMid,
                     concreteShapes:wedgeNarrowHigh,
                     concreteShapes:rampCorner
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     110,
                     42,
                     12,
@@ -554,14 +1683,16 @@
                     2,
                     2,
                     8
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage3Step3PillarExpansion">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 3 | Step 3 - Pillar Expansion -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step3_PillarExpansion">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     concreteShapes:cube,
                     concreteShapes:ramp,
                     concreteShapes:ramp8m01,
@@ -576,8 +1707,9 @@
                     concreteShapes:wedgeNarrowLow,
                     concreteShapes:wedgeNarrowMid,
                     concreteShapes:wedgeNarrowHigh
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     16,
                     42,
                     4,
@@ -592,41 +1724,1532 @@
                     8,
                     8,
                     8
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage3Step4InteriorAndElectricalAdditions">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 3 | Step 4 - Interior & Electrical Additions -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step4_InteriorAndElectricalAdditions">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     concreteShapes:plate,
                     concreteShapes:plateDouble,
                     concreteShapes:doorTrim1mDouble,
                     concreteShapes:doorTrim1m
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     7,
                     2,
                     2,
                     6
-                "/>
+                " />
             </property>
         </item>
 
-        <item name="ekoSeekersBaneStage3Step5RoofAdditions">
-            <property name="Extends" value="ekoSeekersBaneBundle"/>
+        <!-- Stage 3 | Step 5 - Roof Additions -->
+        <item name="WaywardEko_SeekersBane_Stage3_Step5_RoofAdditions">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
-                <property name="Create_item" value="
+                <property name="Create_item"
+                    value="
                     concreteShapes:wedge60,
                     concreteShapes:wedge60Tip,
                     concreteShapes:rampCorner
-                "/>
-                <property name="Create_item_count" value="
+                " />
+                <property name="Create_item_count"
+                    value="
                     8,
                     8,
                     12
-                "/>
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_SeekersBane_Shapes">
+            <property name="Extends" value="WaywardEko_SeekersBane" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:metalTruss3D,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:ramp,
+                    
+                    concreteShapes:cube,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60SlopeCorner03,
+
+                    
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:poleSideCentered,
+                    concreteShapes:poleHalfSideCentered,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plateCornerBeveled,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:plateHalfThreeSided,
+                    concreteShapes:rampTipOffset,
+                    concreteShapes:wedge60TipHalfLeft,
+                    concreteShapes:wedge60TipHalfRight,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:cubeCornerBeveledBookcaseFull,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60SlopeCorner03,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:poleSideCentered,
+                    concreteShapes:poleHalfSideCentered,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plateCornerBeveled,
+                    concreteShapes:securityGateCenteredDiagonal,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:bookcaseFull,
+                    concreteShapes:doorTrimThreeSided,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:plateHalfThreeSided,
+                    concreteShapes:rampTipOffset,
+                    concreteShapes:wedge60TipHalfLeft,
+                    concreteShapes:wedge60TipHalfRight,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:window02Full,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:rampCorner,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:ramp8m02,
+                    concreteShapes:ramp8m03,
+                    concreteShapes:ramp8m04,
+                    concreteShapes:ramp8m05,
+                    concreteShapes:ramp8m06,
+                    concreteShapes:ramp8m07,
+                    concreteShapes:ramp8m08,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+
+
+                    concreteShapes:plate,
+                    concreteShapes:plateDouble,
+                    concreteShapes:doorTrim1mDouble,
+                    concreteShapes:doorTrim1m,
+
+
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:rampCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60,
+                    16,
+                    2,
+                    12,
+                    4,
+                    4,
+                    
+                    40,
+                    1,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+
+
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2,
+
+
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+
+
+                    50,
+                    1,
+                    24,
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+                    2,
+
+
+                    45,
+                    21,
+                    6,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    1,
+                    1,
+                    1,
+                    1,
+                    8,
+                    2,
+
+
+                    30,
+                    10,
+                    4,
+                    24,
+                    2,
+                    2,
+                    20,
+                    10,
+                    4,
+                    2,
+                    2,
+                    2,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+
+
+                    44,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+
+
+                    120,
+                    10,
+                    4,
+                    4,
+
+
+                    110,
+                    42,
+                    12,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    8,
+                    2,
+                    2,
+                    2,
+                    2,
+                    8,
+
+
+                    16,
+                    42,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    8,
+                    8,
+                    8,
+                    8,
+
+
+                    7,
+                    2,
+                    2,
+                    6,
+
+
+                    8,
+                    8,
+                    12
+                " />
+            </property>
+        </item>
+
+    </append>
+
+    <!-- Spark -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Spark">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Spark_Description" />
+        </item>
+
+        <!-- The Spark || Stage 1 -->
+        <!-- Stage 1 | Step 1 - Base Side -->
+        <item name="WaywardEko_Spark_Stage1_Step1_BaseSide">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp8m01,
+                    woodShapes:poleSquareDouble,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:plate,
+                    woodShapes:wedge60SlopeMiddle,
+                    woodShapes:wedgeTipFull,
+                    woodShapes:ladderRound,
+                    woodShapes:rampInsideCornerFull,
+                    woodShapes:plateCorner,
+                    woodShapes:wedgeNarrowLowCorner,
+
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:ramp8m01,
+                    cobblestoneShapes:cubeBeveledCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    36,
+                    3,
+                    1,
+                    12,
+                    3,
+                    2,
+                    12,
+                    2,
+                    9,
+                    9,
+                    2,
+                    2,
+                    1,
+
+                    6,
+                    20,
+                    2,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 2 - Pit -->
+        <item name="WaywardEko_Spark_Stage1_Step2_Pit">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp,
+                    woodShapes:stairsFilledVerticalUV,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:wedgeNarrowLow,
+                    woodShapes:wedgeNarrowMid,
+                    woodShapes:wedgeNarrowHigh,
+                    woodShapes:plateHalf,
+                    woodShapes:plateRampHalfLeft,
+                    woodShapes:plateRampHalfRight,
+
+                    cobblestoneShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    96,
+                    8,
+                    8,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    2,
+
+                    8
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Step 3 - Ladders & Approach -->
+        <item name="WaywardEko_Spark_Stage1_Step3_LaddersAndApproach">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:securityGateCentered,
+                    cobblestoneShapes:securityGatePlate,
+                    cobblestoneShapes:metalTruss3D,
+                    cobblestoneShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    5,
+                    3,
+                    21,
+                    30
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 1 | Optional Dog Ramp -->
+        <item name="WaywardEko_Spark_Stage1_Step4_OptionalDogRamp">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:ramp,
+                    woodShapes:cube,
+                    woodShapes:wedge60,
+                    woodShapes:securityGateCentered,
+
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:poleCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    21,
+                    2,
+                    1,
+                    1,
+
+                    2,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- The Spark || Stage 2 -->
+        <!-- Stage 2 | Step 1 - Upgrade to Cobblestone -->
+        <!-- Stage 2 | Step 2 - Pillars Reinforcement -->
+        <item name="WaywardEko_Spark_Stage2_Step2_PillarsReinforcement">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:plateWedge60Filler
+                " />
+                <property name="Create_item_count"
+                    value="
+                    18,
+                    18
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 3 - Electric Fences -->
+        <item name="WaywardEko_Spark_Stage2_Step3_ElectricFences">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:rampIncline,
+                    cobblestoneShapes:poleSquareSideCenteredCornerBracket
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- Stage 2 | Step 4 - Pit & Fighting Position Upgrades -->
+        <item name="WaywardEko_Spark_Stage2_Step4_PitAndFightingPositionUpgrades">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:ramp6m01,
+                    cobblestoneShapes:ramp6m02,
+                    cobblestoneShapes:ramp6m03,
+                    cobblestoneShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    2,
+                    2,
+                    22
+                " />
+            </property>
+        </item>
+
+        <!-- The Spark || Stage 3 -->
+        <!-- Stage 3 | Step 1 - Upgrade to Concrete -->
+        <!-- Stage 3 | Step 2 - Pit Upgrade -->
+        <item name="WaywardEko_Spark_Stage3_Step2_PitUpgrade">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    8
+                " />
+            </property>
+        </item>
+        <!-- Stage 3 | Step 3 - Final Upgrades -->
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Spark_Shapes">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:plate,
+                    concreteShapes:wedge60SlopeMiddle,
+                    concreteShapes:wedgeTipFull,
+                    concreteShapes:ladderRound,
+                    concreteShapes:rampInsideCornerFull,
+                    concreteShapes:plateCorner,
+                    concreteShapes:wedgeNarrowLowCorner,
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:ramp8m01,
+                    concreteShapes:cubeBeveledCorner,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight,
+
+                    concreteShapes:cube,
+
+
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:metalTruss3D,
+                    concreteShapes:ladderRound,
+
+
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:securityGateCentered,
+
+                    concreteShapes:cube,
+                    concreteShapes:poleCentered,
+
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:plateWedge60Filler,
+
+
+                    concreteShapes:rampIncline,
+                    concreteShapes:poleSquareSideCenteredCornerBracket,
+
+
+                    concreteShapes:ramp6m01,
+                    concreteShapes:ramp6m02,
+                    concreteShapes:ramp6m03,
+                    concreteShapes:cube,
+
+
+                    concreteShapes:plateWallDeco01,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    36,
+                    3,
+                    1,
+                    12,
+                    3,
+                    2,
+                    12,
+                    2,
+                    9,
+                    9,
+                    2,
+                    2,
+                    1,
+
+                    6,
+                    20,
+                    2,
+                    1,
+
+                    
+                    96,
+                    8,
+                    8,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    2,
+
+                    8,
+
+
+                    5,
+                    3,
+                    21,
+                    30,
+
+
+                    21,
+                    2,
+                    1,
+                    1,
+
+                    2,
+                    5,
+
+                    18,
+                    18,
+
+
+                    6,
+                    2,
+
+
+                    2,
+                    2,
+                    2,
+                    22,
+
+
+                    4,
+                    8
+                " />
+            </property>
+        </item>
+
+    </append>
+
+    <!-- Spiral Sentry -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_SpiralSentry">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_SpiralSentry_Description" />
+        </item>
+
+        <!-- Pillars -->
+        <item name="WaywardEko_SpiralSentry_01_Pillars">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:arrowSlitHalfRamp,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:pole
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    24,
+                    24
+                " />
+            </property>
+        </item>
+
+        <!-- Bottom Platform -->
+        <item name="WaywardEko_SpiralSentry_02_BottomPlatform">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:pole
+                " />
+                <property name="Create_item_count"
+                    value="
+                    66,
+                    2,
+                    12,
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Base Side -->
+        <item name="WaywardEko_SpiralSentry_03_BaseSide">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:rampCubeHalfCornerBeveled,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingPlank,
+                    concreteShapes:rampCorner,
+                    concreteShapes:gableWedge60CubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    32,
+                    24,
+                    16,
+                    6,
+                    6,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Fighting Position -->
+        <item name="WaywardEko_SpiralSentry_04_FightingPosition">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:balusterRail02,
+                    concreteShapes:cubeHalf1mHole,
+                    concreteShapes:pillar0.025Double,
+                    concreteShapes:pillar0.25Triple,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedgeNarrowMid
+                " />
+                <property name="Create_item_count"
+                    value="
+                    2,
+                    1,
+                    1,
+                    6,
+                    2,
+                    2,
+                    1,
+                    2,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Center Hallway -->
+        <item name="WaywardEko_SpiralSentry_05_Hallway">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:rampWindow01Centered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Roof -->
+        <item name="WaywardEko_SpiralSentry_06_Roof">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60TipHalf,
+                    concreteShapes:cubeNarrowPyramidBase,
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    3,
+                    26,
+                    26,
+                    4,
+                    39
+                " />
+            </property>
+        </item>
+
+        <!-- Exterior Window Trim -->
+        <item name="WaywardEko_SpiralSentry_07_ExteriorWindowTrim">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:pole,
+                    concreteShapes:platePoleCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Basic Stair -->
+        <item name="WaywardEko_SpiralSentry_08_BasicStair">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    4,
+                    8,
+                    3,
+                    5
+                " />
+            </property>
+        </item>
+
+        <!-- Enhanced Stair -->
+        <item name="WaywardEko_SpiralSentry_09_EnhancedStair">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:ladderRound
+                " />
+                <property name="Create_item_count"
+                    value="
+                    33,
+                    3,
+                    2,
+                    3,
+                    5,
+                    18
+                " />
+            </property>
+        </item>
+
+        <!-- 2 x Safety Catch -->
+        <item name="WaywardEko_SpiralSentry_10_SafetyCatch">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:poleHalfSideCentered
+                " />
+                <property name="Create_item_count"
+                    value="
+                    1,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Base Bridge -->
+        <item name="WaywardEko_SpiralSentry_11_BaseBridge">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:cubeThreeQuarter,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    6,
+                    6,
+                    4,
+                    2,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+
+        <!-- ALL SHAPES-->
+        <item name="WaywardEko_SpiralSentry_Shapes">
+            <property name="Extends" value="WaywardEko_SpiralSentry" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:arrowSlitHalfRamp,
+                    concreteShapes:rampInclineHalfLeft,
+                    concreteShapes:pole,
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:pole,
+
+                    concreteShapes:rampCubeHalfCornerBeveled,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:ramp,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingPlank,
+                    concreteShapes:rampCorner,
+                    concreteShapes:gableWedge60CubeHalf,
+
+                    concreteShapes:balusterRail02,
+                    concreteShapes:cubeHalf1mHole,
+                    concreteShapes:pillar0.025Double,
+                    concreteShapes:pillar0.25Triple,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedge60Offset,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedgeNarrowMid,
+
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:rampWindow01Centered,
+
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:wedge60TipHalf,
+                    concreteShapes:cubeNarrowPyramidBase,
+                    concreteShapes:cube,
+
+                    concreteShapes:pole,
+                    concreteShapes:platePoleCorner,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledQuarterVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:halfRampStairs50,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:ladderRound,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:poleHalfSideCentered,
+
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:windowIndustrial02Full,
+                    concreteShapes:cube0.25m,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:cubeThreeQuarter,
+                    concreteShapes:archInsideCorner02
+                " />
+                <property name="Create_item_count"
+                    value="
+                    48,
+                    24,
+                    24,
+
+                    66,
+                    2,
+                    12,
+                    4,
+                    4,
+
+                    16,
+                    64,
+                    48,
+                    32,
+                    12,
+                    12,
+                    4,
+
+                    4,
+                    2,
+                    2,
+                    12,
+                    4,
+                    4,
+                    2,
+                    4,
+                    2,
+
+                    4,
+                    4,
+
+                    3,
+                    26,
+                    26,
+                    4,
+                    39,
+
+                    8,
+                    4,
+
+                    6,
+                    4,
+                    8,
+                    3,
+                    5,
+
+                    33,
+                    3,
+                    2,
+                    3,
+                    5,
+                    18,
+
+                    2,
+                    2,
+
+                    6,
+                    6,
+                    4,
+                    2,
+                    4,
+                    2
+                " />
+            </property>
+        </item>
+    </append>
+
+    <!-- Switchback -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_Switchback">
+            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_Switchback_Description" />
+        </item>
+
+        <!-- Day 7 -->
+        <item name="WaywardEko_Switchback_1_Day07">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:ramp,
+                    woodShapes:stairsFilledVerticalUV,
+                    woodShapes:wedge60Tip,
+                    woodShapes:cubeHalf,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:cubeHalfRampTip,
+                    woodShapes:cube,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
+                    woodShapes:cubeNarrowPyramidBase,
+                    woodShapes:cubeQuarterCenter,
+                    woodShapes:cubeQuarterCenteredPyramid,
+                    woodShapes:balusterRail02,
+                    woodShapes:pole,
+                    woodShapes:polePlateHalf,
+                    woodShapes:poleSquareDoubleTop
+                " />
+                <property name="Create_item_count"
+                    value="
+                    34,
+                    18,
+                    2,
+                    4,
+                    3,
+                    4,
+                    230,
+                    16,
+                    24,
+                    60,
+                    3,
+                    10,
+                    10,
+                    1,
+                    1,
+                    1,
+                    1
+                " />
+            </property>
+        </item>
+
+        <!-- Day 14 -->
+        <item name="WaywardEko_Switchback_2_Day14">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cubeQuarterCenteredPyramid,
+                    woodShapes:wedge60TipCornerCubeQuarter,
+                    woodShapes:cubeQuarter,
+                    woodShapes:cube,
+                    woodShapes:cubeCornerBeveled,
+                    woodShapes:windowIndustrial01Full,
+                    woodShapes:cubeBeveledCorner,
+                    woodShapes:cubeCornerBeveledOutsideCorner,
+                    woodShapes:wedgeNarrowTip,
+                    woodShapes:polePlate,
+                    woodShapes:poleSquareDouble,
+                    woodShapes:poleSquareDoubleTop,
+                    woodShapes:scaffoldingLadder,
+                    woodShapes:ramp,
+                    woodShapes:rampCorner,
+                    woodShapes:rampInclineFiller,
+                    woodShapes:wedge60Tip,
+                    woodShapes:wedgeNarrowLow
+                " />
+                <property name="Create_item_count"
+                    value="
+                    30,
+                    8,
+                    20,
+                    140,
+                    55,
+                    30,
+                    2,
+                    4,
+                    1,
+                    4,
+                    11,
+                    1,
+                    5,
+                    12,
+                    8,
+                    4,
+                    3,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- Day 21 -->
+        <item name="WaywardEko_Switchback_3_Day21">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledCorner,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:ramp,
+                    concreteShapes:gableInvertedQuarter,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGateCenteredDiagonal,
+
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60TipCornerCubeQuarter,
+                    cobblestoneShapes:cubeQuarter,
+                    cobblestoneShapes:wedgeNarrowHigh,
+                    cobblestoneShapes:wedgeNarrowMid,
+                    cobblestoneShapes:wedgeNarrowLow,
+                    cobblestoneShapes:wedgeNarrowTip,
+                    cobblestoneShapes:stairsFilledVerticalUV,
+                    cobblestoneShapes:ramp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    14,
+                    5,
+                    5,
+                    12,
+                    2,
+                    4,
+                    8,
+                    4,
+                    1,
+                    4,
+
+                    28,
+                    8,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    22,
+                    26
+                " />
+            </property>
+        </item>
+
+        <!-- Day 28+ -->
+        <item name="WaywardEko_Switchback_4_Day28">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:plateRamp,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeQuarterCornerPyramid,
+                    concreteShapes:industrialFenceTop,
+                    concreteShapes:halfBlockPillar50,
+                    concreteShapes:pillar50
+                " />
+                <property name="Create_item_count"
+                    value="
+                    8,
+                    12,
+                    4,
+                    4,
+                    2,
+                    4,
+                    4,
+                    32,
+                    2,
+                    4
+                " />
+            </property>
+        </item>
+
+        <!-- All Bundles -->
+        <item name="WaywardEko_Switchback_Bundles">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    WaywardEko_Switchback_1_Day07,
+                    WaywardEko_Switchback_2_Day14,
+                    WaywardEko_Switchback_3_Day21,
+                    WaywardEko_Switchback_4_Day28
+                " />
+            </property>
+        </item>
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_Switchback_Shapes">
+            <property name="Extends" value="WaywardEko_Switchback" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:cubeHalf,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:cubeHalfRampTip,
+                    concreteShapes:cube,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeNarrowPyramidBase,
+                    concreteShapes:cubeQuarterCenter,
+                    concreteShapes:cubeQuarterCenteredPyramid,
+                    concreteShapes:balusterRail02,
+                    concreteShapes:pole,
+                    concreteShapes:polePlateHalf,
+                    concreteShapes:poleSquareDoubleTop,
+
+
+                    concreteShapes:cubeQuarterCenteredPyramid,
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cube,
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:windowIndustrial01Full,
+                    concreteShapes:cubeBeveledCorner,
+                    concreteShapes:cubeCornerBeveledOutsideCorner,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:polePlate,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:poleSquareDoubleTop,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:ramp,
+                    concreteShapes:rampCorner,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:wedgeNarrowLow,
+
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledCorner,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:ramp,
+                    concreteShapes:gableInvertedQuarter,
+                    concreteShapes:securityGateCentered,
+                    concreteShapes:securityGateCenteredDiagonal,
+
+                    concreteShapes:cube,
+                    concreteShapes:wedge60TipCornerCubeQuarter,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:ramp,
+
+
+                    concreteShapes:plateRamp,
+                    concreteShapes:securityGatePlate,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:ramp,
+                    concreteShapes:cubeQuarter,
+                    concreteShapes:cubeQuarterCornerPyramid,
+                    concreteShapes:industrialFenceTop,
+                    concreteShapes:halfBlockPillar50,
+                    concreteShapes:pillar50
+                " />
+                <property name="Create_item_count"
+                    value="
+                    34,
+                    18,
+                    2,
+                    4,
+                    3,
+                    4,
+                    230,
+                    16,
+                    24,
+                    60,
+                    3,
+                    10,
+                    10,
+                    1,
+                    1,
+                    1,
+                    1,
+
+
+                    30,
+                    8,
+                    20,
+                    140,
+                    55,
+                    30,
+                    2,
+                    4,
+                    1,
+                    4,
+                    11,
+                    1,
+                    5,
+                    12,
+                    8,
+                    4,
+                    3,
+                    4,
+
+
+                    14,
+                    5,
+                    5,
+                    12,
+                    2,
+                    4,
+                    8,
+                    4,
+                    1,
+                    4,
+
+                    28,
+                    8,
+                    24,
+                    2,
+                    2,
+                    2,
+                    2,
+                    22,
+                    26,
+
+
+                    8,
+                    12,
+                    4,
+                    4,
+                    2,
+                    4,
+                    4,
+                    32,
+                    2,
+                    4
+                " />
             </property>
         </item>
 

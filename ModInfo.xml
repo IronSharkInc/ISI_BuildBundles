@@ -2,8 +2,8 @@
 <xml>
 	<Name value="ISI-BuildBundles" />
 	<DisplayName value="ISI Build Bundles" />
-	<Version value="1.3.0.0" />
-	<Description value="A mod that adds preconfigured shape bundles for building specific horde bases" />
+	<Version value="2.4.0.1" />
+	<Description value="Adds recipes that turn building cubes into the specific shapes needed to build iconic horde bases." />
 	<Author value="IronSharkInc" />
 	<Website value="https://github.com/IronSharkInc" />
 </xml>
