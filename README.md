@@ -30,3 +30,11 @@ A 7 Days to Die (7D2D) mod that adds recipes that turns building cubes into the 
 ![Switchback - All Shapes](images/ekoSwitchAll.png)
 
 ![Switchback - Alternating](images/alternating.png)
+
+## Testing
+
+- Craft "Switchback - All Shapes" and "Switchback - Day 07" bundles
+- Open the bundles
+- Confirm bundle names are user friendly
+- Confirm bundle descriptions are user friendly
+- Confirm builds have alternating light and dark green tints
