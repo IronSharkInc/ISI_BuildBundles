@@ -5,7 +5,7 @@
 
         <!-- Template -->
         <item name="WaywardEko_SeekersBane">
-            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="Extends" value="WaywardEko_DarkGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_SeekersBane_Description" />
         </item>

@@ -5,7 +5,7 @@
 
         <!-- Template -->
         <item name="WaywardEko_Switchback">
-            <property name="Extends" value="WaywardEko_DarkGreen" />
+            <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_Switchback_Description" />
         </item>
