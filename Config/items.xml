@@ -24,6 +24,7 @@
     <include filename="builds/WaywardEko/templates.xml" />
     <include filename="builds/WaywardEko/EkoBox/items.xml" />
     <include filename="builds/WaywardEko/EkoCraft/items.xml" />
+    <include filename="builds/WaywardEko/EkoMini/items.xml" />
     <include filename="builds/WaywardEko/Foundry_Crafting/items.xml" />
     <include filename="builds/WaywardEko/Foundry_Horde/items.xml" />
     <include filename="builds/WaywardEko/SeekersBane/items.xml" />

@@ -1,0 +1,384 @@
+<IronSharkInc>
+
+    <!-- Eko Mini -->
+    <append xpath="//items">
+
+        <!-- Template -->
+        <item name="WaywardEko_EkoMini">
+            <property name="Extends" value="WaywardEko_LightGreen" />
+            <property name="CreativeMode" value="None" />
+            <property name="DescriptionKey" value="WaywardEko_EkoMini_Description" />
+        </item>
+
+        <!-- Stage 1 -->
+        <item name="WaywardEko_EkoMini_1_1_Foundation">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    cobblestoneShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    16,
+                    34
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_2_Pillars">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cubeQuarterRoundOutside,
+                    woodShapes:cubeFacadeTileCornerCurved,
+                    cobblestoneShapes:cubeQuarterRoundOutside,
+                    cobblestoneShapes:cubeFacadeTileCornerCurved
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    16,
+                    16,
+                    32
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_3_Floor">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:ramp,
+                    woodShapes:wedge60Tip,
+                    woodShapes:gableInvertedHalf,
+                    woodShapes:cube1mHole,
+                    woodShapes:cubePoleCentered,
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeBeveledCorner
+                " />
+                <property name="Create_item_count"
+                    value="
+                    24,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    3,
+                    1
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_4_SidesAndRoof">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    woodShapes:cubeQuarterRoundOutside,
+                    woodShapes:cubeFacadeTileCornerCurved,
+                    woodShapes:gableInvertedHalf,
+                    woodShapes:scaffoldingLadder,
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:cubeFacadeTileCornerCurved
+                " />
+                <property name="Create_item_count"
+                    value="
+                    79,
+                    4,
+                    16,
+                    20,
+                    4,
+                    14,
+                    2
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_5_Ramp">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:cube,
+                    cobblestoneShapes:stairsFilledVerticalUV,
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:wedge60,
+                    cobblestoneShapes:cubeHalf
+                " />
+                <property name="Create_item_count"
+                    value="
+                    32,
+                    10,
+                    6,
+                    2,
+                    4
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_6_FightingPosition">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cubeCornerBeveled,
+                    cobblestoneShapes:rampInclineFiller,
+                    cobblestoneShapes:ramp6m01,
+                    cobblestoneShapes:ramp6m02,
+                    cobblestoneShapes:ramp6m03,
+                    cobblestoneShapes:poleSquareDouble,
+                    cobblestoneShapes:scaffoldingLadder
+
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    6,
+                    2
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_1_7_Pit">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    woodShapes:stairsFilledVerticalUV,
+                    cobblestoneShapes:stairsFilledVerticalUV
+                " />
+                <property name="Create_item_count"
+                    value="
+                    7,
+                    2
+                " />
+            </property>
+        </item>
+        
+        <!-- <item name="WaywardEko_EkoMini_1_8_ElectricFences">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+        </item> -->
+        
+        <!-- Stage 2 -->
+        <!-- <item name="WaywardEko_EkoMini_2_1_UpgradeExistingStructures">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+        </item> -->
+        
+        <item name="WaywardEko_EkoMini_2_2_PitBottomUpgrade">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:cube,
+                    cobblestoneShapes:stairsFilledVerticalUV,
+                    cobblestoneShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV
+                " />
+                <property name="Create_item_count"
+                    value="
+                    210,
+                    7,
+                    12,
+                    2
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_2_3_ElectricFenceProtection">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    cobblestoneShapes:plate,
+                    cobblestoneShapes:plateRamp,
+                    cobblestoneShapes:windowTrim,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp
+                " />
+                <property name="Create_item_count"
+                    value="
+                    4,
+                    2,
+                    4,
+                    16,
+                    4
+                " />
+            </property>
+        </item>
+        
+        <!-- Stage 3 -->
+        <!-- <item name="WaywardEko_EkoMini_3_1_UpgradeExistingStructure">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+        </item> -->
+        
+        <item name="WaywardEko_EkoMini_3_2_PitWalls">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    94
+                " />
+            </property>
+        </item>
+        
+        <item name="WaywardEko_EkoMini_3_3_GroundCovering">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    60
+                " />
+            </property>
+        </item>
+        
+        <!-- <item name="WaywardEko_EkoMini_3_4_FinalElectrical">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+        </item> -->
+
+        <!-- All Shapes -->
+        <item name="WaywardEko_EkoMini_0_Shapes">
+            <property name="Extends" value="WaywardEko_EkoMini" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:cube,
+
+                    concreteShapes:cubeQuarterRoundOutside,
+                    concreteShapes:cubeFacadeTileCornerCurved,
+                    concreteShapes:cubeQuarterRoundOutside,
+                    concreteShapes:cubeFacadeTileCornerCurved,
+
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:wedge60Tip,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:cube1mHole,
+                    concreteShapes:cubePoleCentered,
+                    concreteShapes:cube,
+                    concreteShapes:cubeBeveledCorner,
+                    
+                    concreteShapes:cube,
+                    concreteShapes:cubeQuarterRoundOutside,
+                    concreteShapes:cubeFacadeTileCornerCurved,
+                    concreteShapes:gableInvertedHalf,
+                    concreteShapes:scaffoldingLadder,
+                    concreteShapes:cube,
+                    concreteShapes:cubeFacadeTileCornerCurved,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:cube,
+                    concreteShapes:wedge60,
+                    concreteShapes:cubeHalf,
+
+                    concreteShapes:cubeCornerBeveled,
+                    concreteShapes:rampInclineFiller,
+                    concreteShapes:ramp6m01,
+                    concreteShapes:ramp6m02,
+                    concreteShapes:ramp6m03,
+                    concreteShapes:poleSquareDouble,
+                    concreteShapes:scaffoldingLadder,
+
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:stairsFilledVerticalUV,
+
+                    concreteShapes:cube,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV,
+
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp,
+                    concreteShapes:windowTrim,
+                    concreteShapes:plate,
+                    concreteShapes:plateRamp,
+
+                    concreteShapes:cube,
+
+                    concreteShapes:cube
+                " />
+                <property name="Create_item_count"
+                    value="
+                    16,
+                    34,
+
+                    4,
+                    16,
+                    16,
+                    32,
+
+                    24,
+                    4,
+                    4,
+                    4,
+                    4,
+                    4,
+                    3,
+                    1,
+                    
+                    79,
+                    4,
+                    16,
+                    20,
+                    4,
+                    14,
+                    2,
+
+                    32,
+                    10,
+                    6,
+                    2,
+                    4,
+
+                    4,
+                    4,
+                    2,
+                    2,
+                    2,
+                    6,
+                    2,
+
+                    7,
+                    2,
+
+                    210,
+                    7,
+                    12,
+                    2,
+
+                    4,
+                    2,
+                    4,
+                    16,
+                    4,
+
+                    94,
+
+                    60
+                " />
+            </property>
+        </item>
+        
+    </append>
+
+</IronSharkInc>

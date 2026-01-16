@@ -1,0 +1,84 @@
+<IronSharkInc>
+
+    <!-- Eko Craft -->
+    <append xpath="//recipes">
+
+        <!-- Stage 1 -->
+        <recipe name="WaywardEko_EkoMini_1_1_Foundation" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="16" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="34" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_2_Pillars" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="20" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="48" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_3_Floor" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="44" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="4" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_4_SidesAndRoof" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="123" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="16" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_5_Ramp" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="32" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="22" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_6_FightingPosition" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="22" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_1_7_Pit" count="1" craft_time="5">
+            <ingredient name="woodShapes:VariantHelper" count="7" />
+            <ingredient name="cobblestoneShapes:VariantHelper" count="2" />
+        </recipe>
+
+        <!-- <recipe name="WaywardEko_EkoMini_1_8_ElectricFences" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="144" />
+        </recipe> -->
+
+        <!-- Stage 2 -->
+        <!-- <recipe name="WaywardEko_EkoMini_2_1_UpgradeExistingStructures" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="144" />
+        </recipe> -->
+
+        <recipe name="WaywardEko_EkoMini_2_2_PitBottomUpgrade" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="229" />
+            <ingredient name="concreteShapes:VariantHelper" count="2" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_2_3_ElectricFenceProtection" count="1" craft_time="5">
+            <ingredient name="cobblestoneShapes:VariantHelper" count="10" />
+            <ingredient name="concreteShapes:VariantHelper" count="20" />
+        </recipe>
+
+        <!-- Stage 3 -->
+        <!-- <recipe name="WaywardEko_EkoMini_3_1_UpgradeExistingStructure" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="144" />
+        </recipe> -->
+
+        <recipe name="WaywardEko_EkoMini_3_2_PitWalls" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="94" />
+        </recipe>
+
+        <recipe name="WaywardEko_EkoMini_3_3_GroundCovering" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="58" />
+        </recipe>
+
+        <!-- <recipe name="WaywardEko_EkoMini_3_4_FinalElectrical" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="144" />
+        </recipe> -->
+
+        <!-- All Shapes -->
+        <recipe name="WaywardEko_EkoMini_0_Shapes" count="1" craft_time="5">
+            <ingredient name="concreteShapes:VariantHelper" count="805" />
+        </recipe>
+
+    </append>
+
+</IronSharkInc>

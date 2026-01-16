@@ -2,6 +2,7 @@
 
     <include filename="builds/WaywardEko/EkoBox/recipes.xml" />
     <include filename="builds/WaywardEko/EkoCraft/recipes.xml" />
+    <include filename="builds/WaywardEko/EkoMini/recipes.xml" />
     <include filename="builds/WaywardEko/Foundry_Crafting/recipes.xml" />
     <include filename="builds/WaywardEko/Foundry_Horde/recipes.xml" />
     <include filename="builds/WaywardEko/SeekersBane/recipes.xml" />
