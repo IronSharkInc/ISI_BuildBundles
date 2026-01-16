@@ -2,7 +2,7 @@
 <xml>
 	<Name value="ISI-BuildBundles" />
 	<DisplayName value="ISI Build Bundles" />
-	<Version value="2.5.0.2" />
+	<Version value="2.5.1.0" />
 	<Description value="Adds recipes that turns building cubes into the specific shapes needed to build iconic horde bases." />
 	<Author value="IronSharkInc" />
 	<Website value="https://github.com/IronSharkInc" />
