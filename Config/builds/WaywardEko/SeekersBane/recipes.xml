@@ -5,16 +5,16 @@
     <append xpath="//recipes">
         
         <recipe name="WaywardEko_SeekersBane_1_1_PillarsAndPlatform" count="1"
-            craft_time="1">
+            craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="98" />
             <ingredient name="cobblestoneShapes:VariantHelper" count="85" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_1_2_Ramp" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_1_2_Ramp" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="114" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_1_3_FightingPosition" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_1_3_FightingPosition" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="120" />
         </recipe>
 
@@ -24,24 +24,24 @@
     <append xpath="//recipes">
         
         <recipe name="WaywardEko_SeekersBane_2_2_PillarsAndPlatform" count="1"
-            craft_time="1">
+            craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="103" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_2_3_SecondRamp" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_2_3_SecondRamp" count="1" craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="114" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_2_4_FightingPosition" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_2_4_FightingPosition" count="1" craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="120" />
         </recipe>
 
         <recipe name="WaywardEko_SeekersBane_2_5_CenterPillarReinforcement" count="1"
-            craft_time="1">
+            craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="76" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_2_6_SideWallsAndRoof" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_2_6_SideWallsAndRoof" count="1" craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="138" />
         </recipe>
 
@@ -50,20 +50,20 @@
     <!-- Stage 3 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_SeekersBane_3_2_RampExpansion" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_3_2_RampExpansion" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="236" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_3_3_PillarExpansion" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_3_3_PillarExpansion" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="122" />
         </recipe>
 
         <recipe name="WaywardEko_SeekersBane_3_4_InteriorAndElectricalAdditions" count="1"
-            craft_time="1">
+            craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="17" />
         </recipe>
 
-        <recipe name="WaywardEko_SeekersBane_3_5_RoofAdditions" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_3_5_RoofAdditions" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="28" />
         </recipe>
 
@@ -72,7 +72,7 @@
     <!-- All Shapes -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_SeekersBane_Shapes" count="1" craft_time="1">
+        <recipe name="WaywardEko_SeekersBane_Shapes" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="1371" />
         </recipe>
 
