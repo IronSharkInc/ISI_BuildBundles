@@ -4,10 +4,10 @@ isiBuildBundleDescription,blocks,block,TODO
 
 WaywardEko_EkoBox_Description,blocks,block,"A bundle of shapes needed to build the [00b400]Eko Box[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=mvx9sxO_FZQ"
 WaywardEko_EkoBox_1_1_Build,blocks,block,  "Eko Box - 1 - Build"
-WaywardEko_EkoBox_Shapes,blocks,block,     "Eko Box - All Shapes"
+WaywardEko_EkoBox_Shapes,blocks,block,     "Eko Box (All Shapes)"
 
 WaywardEko_EkoCraft_Description,blocks,block,         "A bundle of shapes needed to build the [00b400]Eko Craft[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=szxHF5YGD44"
-WaywardEko_EkoCraft_Shapes,blocks,block,              "Eko Craft - All Shapes"
+WaywardEko_EkoCraft_Shapes,blocks,block,              "Eko Craft (All Shapes)"
 WaywardEko_EkoCraft_1_1_Pillars,blocks,block,         "Eko Craft - 1 - Pillars"
 WaywardEko_EkoCraft_1_2_BaseFloor,blocks,block,       "Eko Craft - 2 - Base Floor"
 WaywardEko_EkoCraft_1_3_Corners,blocks,block,         "Eko Craft - 3 - Corners"
@@ -18,7 +18,7 @@ WaywardEko_EkoCraft_1_7_Ramp,blocks,block,            "Eko Craft - 7 - Ramp"
 WaywardEko_EkoCraft_1_8_Entrance,blocks,block,        "Eko Craft - 8 - Entrance"
 
 WaywardEko_EkoMini_Description,blocks,block,                  "A bundle of shapes needed to build the [00b400]Eko Mini[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/@WaywardEko"
-WaywardEko_EkoMini_Shapes,blocks,block,                       "Eko Mini - All Shapes"
+WaywardEko_EkoMini_Shapes,blocks,block,                       "Eko Mini (All Shapes)"
 WaywardEko_EkoMini_1_1_Foundation,blocks,block,               "Eko Mini - Stage 1 - Step 1: Foundation"
 WaywardEko_EkoMini_1_2_Pillars,blocks,block,                  "Eko Mini - Stage 1 - Step 2: Pillars"
 WaywardEko_EkoMini_1_3_Floor,blocks,block,                    "Eko Mini - Stage 1 - Step 3: Floor"
@@ -36,7 +36,7 @@ WaywardEko_EkoMini_3_3_GroundCovering,blocks,block,           "Eko Mini - Stage 
 WaywardEko_EkoMini_3_4_FinalElectrical,blocks,block,          "Eko Mini - Stage 3 - Step 4: Final Electric"
 
 WaywardEko_Foundry_Crafting_Description,blocks,block,                   "A bundle of shapes needed to build the [00b400]Foundry (Crafting Base)[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=UT6BViqGJkg"
-WaywardEko_Foundry_Crafting_Shapes,blocks,block,                        "Foundry (Crafting Base) - All Shapes"
+WaywardEko_Foundry_Crafting_Shapes,blocks,block,                        "Foundry (Crafting Base) (All Shapes)"
 WaywardEko_Foundry_Crafting_1_1_Ramp,blocks,block,                      "Foundry (Crafting Base) - 1 - Ramp"
 WaywardEko_Foundry_Crafting_1_2_Frame,blocks,block,                     "Foundry (Crafting Base) - 2 - Frame"
 WaywardEko_Foundry_Crafting_1_3_GarageLevelWalls,blocks,block,          "Foundry (Crafting Base) - 3 - Garage Level Walls"
@@ -47,7 +47,7 @@ WaywardEko_Foundry_Crafting_1_8_ExternalTrimAndFinalWiring,blocks,block,"Foundry
 WaywardEko_Foundry_Crafting_1_9_GardenOptional,blocks,block,            "Foundry (Crafting Base) - 9 - Garden (Optional)"
 
 WaywardEko_Foundry_Horde_Description,blocks,block,                     "A bundle of shapes needed to build the [00b400]Foundry (Horde Base)[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=k89FE_6P9fA"
-WaywardEko_Foundry_Horde_Shapes,blocks,block,                          "Foundry (Horde Base) - All Shapes"
+WaywardEko_Foundry_Horde_Shapes,blocks,block,                          "Foundry (Horde Base) (All Shapes)"
 WaywardEko_Foundry_Horde_1_1_Pit,blocks,block,                         "Foundry (Horde Base) - 1 - Pit"
 WaywardEko_Foundry_Horde_1_2_PillarsAndFloor,blocks,block,             "Foundry (Horde Base) - 2 - Pillars & Floor"
 WaywardEko_Foundry_Horde_1_3_SideWalls,blocks,block,                   "Foundry (Horde Base) - 3 - Side Walls"
@@ -59,7 +59,7 @@ WaywardEko_Foundry_Horde_1_8_ExternalTrimAndDoors,blocks,block,        "Foundry 
 WaywardEko_Foundry_Horde_1_9_InteriorAndElectrical,blocks,block,       "Foundry (Horde Base) - 9 - Interior & Electrical"
 
 WaywardEko_SeekersBane_Description,blocks,block,                       "A bundle of shapes needed to build the [00b400]Seeker's Bane[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=jEMnP7sHEzo"
-WaywardEko_SeekersBane_Shapes,blocks,block,                            "Seeker's Bane - All Shapes"
+WaywardEko_SeekersBane_Shapes,blocks,block,                            "Seeker's Bane (All Shapes)"
 WaywardEko_SeekersBane_1_1_PillarsAndPlatform,blocks,block,            "Seeker's Bane - Stage 1 | Step 1 - Pillars & Platform"
 WaywardEko_SeekersBane_1_2_Ramp,blocks,block,                          "Seeker's Bane - Stage 1 | Step 2 - Ramp"
 WaywardEko_SeekersBane_1_3_FightingPosition,blocks,block,              "Seeker's Bane - Stage 1 | Step 3 - Fighting Position"
@@ -74,7 +74,7 @@ WaywardEko_SeekersBane_3_4_InteriorAndElectricalAdditions,blocks,block,"Seeker's
 WaywardEko_SeekersBane_3_5_RoofAdditions,blocks,block,                 "Seeker's Bane - Stage 3 | Step 5 - Roof Additions"
 
 WaywardEko_Spark_Description,blocks,block,                       "A bundle of shapes needed to build the [00b400]Spark[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=GcciKSy9z_M"
-WaywardEko_Spark_Shapes,blocks,block,                            "Spark - All Shapes"
+WaywardEko_Spark_Shapes,blocks,block,                            "Spark (All Shapes)"
 WaywardEko_Spark_1_1_BaseSide,blocks,block,                      "Spark - Stage 1 | Step 1 - Base Side"
 WaywardEko_Spark_1_2_Pit,blocks,block,                           "Spark - Stage 1 | Step 2 - Pit"
 WaywardEko_Spark_1_3_LaddersAndApproach,blocks,block,            "Spark - Stage 1 | Step 3 - Ladders & Approach"
@@ -85,7 +85,7 @@ WaywardEko_Spark_2_4_PitAndFightingPositionUpgrades,blocks,block,"Spark - Stage 
 WaywardEko_Spark_3_2_PitUpgrade,blocks,block,                    "Spark - Stage 3 | Step 2 - Pit Upgrade"
 
 WaywardEko_SpiralSentry_Description,blocks,block,           "A bundle of shapes needed to build the [00b400]Spiral Sentry[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=Evp-3gU4P24"
-WaywardEko_SpiralSentry_Shapes,blocks,block,                "Spiral Sentry - All Shapes"
+WaywardEko_SpiralSentry_Shapes,blocks,block,                "Spiral Sentry (All Shapes)"
 WaywardEko_SpiralSentry_1_1_Pillars,blocks,block,           "Spiral Sentry - 01 - Pillars"
 WaywardEko_SpiralSentry_1_2_BottomPlatform,blocks,block,    "Spiral Sentry - 02 - Bottom Platform"
 WaywardEko_SpiralSentry_1_3_BaseSide,blocks,block,          "Spiral Sentry - 03 - Base Side x 2"
@@ -99,7 +99,7 @@ WaywardEko_SpiralSentry_1_10_SafetyCatch,blocks,block,      "Spiral Sentry - 10 
 WaywardEko_SpiralSentry_1_11_BaseBridge,blocks,block,       "Spiral Sentry - 11 - Base Bridge"
 
 WaywardEko_Switchback_Description,blocks,block,"A bundle of shapes needed to build the [00b400]Switchback[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/watch?v=Bv4Lk7UkkV4"
-WaywardEko_Switchback_Shapes,blocks,block,     "Switchback - All Shapes"
+WaywardEko_Switchback_Shapes,blocks,block,     "Switchback (All Shapes)"
 WaywardEko_Switchback_1_1_Day07,blocks,block,  "Switchback - Day 07"
 WaywardEko_Switchback_1_2_Day14,blocks,block,  "Switchback - Day 14"
 WaywardEko_Switchback_1_3_Day21,blocks,block,  "Switchback - Day 21"
