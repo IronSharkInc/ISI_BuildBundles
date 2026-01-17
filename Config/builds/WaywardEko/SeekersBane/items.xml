@@ -16,7 +16,7 @@
     <append xpath="//items">
 
         <!-- Stage 1 | Step 1 - Pillars & Platform -->
-        <item name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform">
+        <item name="WaywardEko_SeekersBane_1_1_PillarsAndPlatform">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -69,7 +69,7 @@
         </item>
 
         <!-- Stage 1 | Step 2 - Ramp -->
-        <item name="WaywardEko_SeekersBane_Stage1_Step2_Ramp">
+        <item name="WaywardEko_SeekersBane_1_2_Ramp">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -114,7 +114,7 @@
         </item>
 
         <!-- Stage 1 | Step 3 - Fighting Position -->
-        <item name="WaywardEko_SeekersBane_Stage1_Step3_FightingPosition">
+        <item name="WaywardEko_SeekersBane_1_3_FightingPosition">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -166,7 +166,7 @@
     <append xpath="//items">
 
         <!-- Stage 2 | Step 2 - Pillars & Platform -->
-        <item name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform">
+        <item name="WaywardEko_SeekersBane_2_2_PillarsAndPlatform">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -209,7 +209,7 @@
         </item>
 
         <!-- Stage 2 | Step 3 - Second Ramp -->
-        <item name="WaywardEko_SeekersBane_Stage2_Step3_SecondRamp">
+        <item name="WaywardEko_SeekersBane_2_3_SecondRamp">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -254,7 +254,7 @@
         </item>
 
         <!-- Stage 2 | Step 4 - Second Fighting Position -->
-        <item name="WaywardEko_SeekersBane_Stage2_Step4_FightingPosition">
+        <item name="WaywardEko_SeekersBane_2_4_FightingPosition">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -301,7 +301,7 @@
         </item>
 
         <!-- Stage 2 | Step 5 - Center Pillar Reinforcement -->
-        <item name="WaywardEko_SeekersBane_Stage2_Step5_CenterPillarReinforcement">
+        <item name="WaywardEko_SeekersBane_2_5_CenterPillarReinforcement">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -332,7 +332,7 @@
         </item>
 
         <!-- Stage 2 | Step 6 - Side Walls and Roof -->
-        <item name="WaywardEko_SeekersBane_Stage2_Step6_SideWallsAndRoof">
+        <item name="WaywardEko_SeekersBane_2_6_SideWallsAndRoof">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -358,7 +358,7 @@
     <append xpath="//items">
 
         <!-- Stage 3 | Step 2 - Ramp Expansion -->
-        <item name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion">
+        <item name="WaywardEko_SeekersBane_3_2_RampExpansion">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -401,7 +401,7 @@
         </item>
 
         <!-- Stage 3 | Step 3 - Pillar Expansion -->
-        <item name="WaywardEko_SeekersBane_Stage3_Step3_PillarExpansion">
+        <item name="WaywardEko_SeekersBane_3_3_PillarExpansion">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -442,7 +442,7 @@
         </item>
 
         <!-- Stage 3 | Step 4 - Interior & Electrical Additions -->
-        <item name="WaywardEko_SeekersBane_Stage3_Step4_InteriorAndElectricalAdditions">
+        <item name="WaywardEko_SeekersBane_3_4_InteriorAndElectricalAdditions">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"
@@ -463,7 +463,7 @@
         </item>
 
         <!-- Stage 3 | Step 5 - Roof Additions -->
-        <item name="WaywardEko_SeekersBane_Stage3_Step5_RoofAdditions">
+        <item name="WaywardEko_SeekersBane_3_5_RoofAdditions">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">
                 <property name="Create_item"

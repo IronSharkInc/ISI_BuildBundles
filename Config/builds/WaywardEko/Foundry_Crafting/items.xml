@@ -17,7 +17,7 @@
 
         <!-- Bill of Materials -->
         <!-- Step 1 - Ramp -->
-        <item name="WaywardEko_Foundry_Crafting_1_Ramp">
+        <item name="WaywardEko_Foundry_Crafting_1_1_Ramp">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -46,7 +46,7 @@
         </item>
 
         <!-- Step 2 - Frame -->
-        <item name="WaywardEko_Foundry_Crafting_2_Frame">
+        <item name="WaywardEko_Foundry_Crafting_1_2_Frame">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -81,7 +81,7 @@
         </item>
 
         <!-- Step 3 - Garage Level Walls -->
-        <item name="WaywardEko_Foundry_Crafting_3_GarageLevelWalls">
+        <item name="WaywardEko_Foundry_Crafting_1_3_GarageLevelWalls">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -106,7 +106,7 @@
         </item>
 
         <!-- Step 4 - Crafting Level Walls -->
-        <item name="WaywardEko_Foundry_Crafting_4_CraftingLevelWalls">
+        <item name="WaywardEko_Foundry_Crafting_1_4_CraftingLevelWalls">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -129,7 +129,7 @@
         </item>
 
         <!-- Step 5 - Roof -->
-        <item name="WaywardEko_Foundry_Crafting_5_Roof">
+        <item name="WaywardEko_Foundry_Crafting_1_5_Roof">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -166,7 +166,7 @@
         </item>
 
         <!-- Step 6 - Crafting Room -->
-        <item name="WaywardEko_Foundry_Crafting_6_CraftingRoom">
+        <item name="WaywardEko_Foundry_Crafting_1_6_CraftingRoom">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -198,7 +198,7 @@
 
         <!-- Step 7 - Electrical Setup -->
         <!-- Step 8 - External Trim & Final Wiring -->
-        <item name="WaywardEko_Foundry_Crafting_8_ExternalTrimAndFinalWiring">
+        <item name="WaywardEko_Foundry_Crafting_1_8_ExternalTrimAndFinalWiring">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"
@@ -221,7 +221,7 @@
         </item>
 
         <!-- Step 9 - Garden (Optional) -->
-        <item name="WaywardEko_Foundry_Crafting_9_GardenOptional">
+        <item name="WaywardEko_Foundry_Crafting_1_9_GardenOptional">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">
                 <property name="Create_item"

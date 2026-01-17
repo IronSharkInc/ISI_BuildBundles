@@ -4,50 +4,50 @@
     <!-- Stage 1 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_SpiralSentry_01_Pillars" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_1_Pillars" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="96" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_02_BottomPlatform" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_2_BottomPlatform" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="88" />
         </recipe>
 
         <!-- x2 -->
-        <recipe name="WaywardEko_SpiralSentry_03_BaseSide" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_3_BaseSide" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="94" />
         </recipe>
 
         <!-- x2 -->
-        <recipe name="WaywardEko_SpiralSentry_04_FightingPosition" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_4_FightingPosition" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="18" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_05_Hallway" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_5_Hallway" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="8" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_06_Roof" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_6_Roof" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="98" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_07_ExteriorWindowTrim" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_7_ExteriorWindowTrim" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="12" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_08_BasicStair" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_8_BasicStair" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="26" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_09_EnhancedStair" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_9_EnhancedStair" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="64" />
         </recipe>
 
         <!-- x2 -->
-        <recipe name="WaywardEko_SpiralSentry_10_SafetyCatch" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_10_SafetyCatch" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="2" />
         </recipe>
 
-        <recipe name="WaywardEko_SpiralSentry_11_BaseBridge" count="1" craft_time="5">
+        <recipe name="WaywardEko_SpiralSentry_1_11_BaseBridge" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="24" />
         </recipe>
 

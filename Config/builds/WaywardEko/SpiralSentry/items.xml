@@ -16,7 +16,7 @@
     <append xpath="//items">
 
         <!-- Pillars -->
-        <item name="WaywardEko_SpiralSentry_01_Pillars">
+        <item name="WaywardEko_SpiralSentry_1_1_Pillars">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -35,7 +35,7 @@
         </item>
 
         <!-- Bottom Platform -->
-        <item name="WaywardEko_SpiralSentry_02_BottomPlatform">
+        <item name="WaywardEko_SpiralSentry_1_2_BottomPlatform">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -58,7 +58,7 @@
         </item>
 
         <!-- 2 x Base Side -->
-        <item name="WaywardEko_SpiralSentry_03_BaseSide">
+        <item name="WaywardEko_SpiralSentry_1_3_BaseSide">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -85,7 +85,7 @@
         </item>
 
         <!-- 2 x Fighting Position -->
-        <item name="WaywardEko_SpiralSentry_04_FightingPosition">
+        <item name="WaywardEko_SpiralSentry_1_4_FightingPosition">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -116,7 +116,7 @@
         </item>
 
         <!-- Center Hallway -->
-        <item name="WaywardEko_SpiralSentry_05_Hallway">
+        <item name="WaywardEko_SpiralSentry_1_5_Hallway">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -133,7 +133,7 @@
         </item>
 
         <!-- Roof -->
-        <item name="WaywardEko_SpiralSentry_06_Roof">
+        <item name="WaywardEko_SpiralSentry_1_6_Roof">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -156,7 +156,7 @@
         </item>
 
         <!-- Exterior Window Trim -->
-        <item name="WaywardEko_SpiralSentry_07_ExteriorWindowTrim">
+        <item name="WaywardEko_SpiralSentry_1_7_ExteriorWindowTrim">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -173,7 +173,7 @@
         </item>
 
         <!-- Basic Stair -->
-        <item name="WaywardEko_SpiralSentry_08_BasicStair">
+        <item name="WaywardEko_SpiralSentry_1_8_BasicStair">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -196,7 +196,7 @@
         </item>
 
         <!-- Enhanced Stair -->
-        <item name="WaywardEko_SpiralSentry_09_EnhancedStair">
+        <item name="WaywardEko_SpiralSentry_1_9_EnhancedStair">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -221,7 +221,7 @@
         </item>
 
         <!-- 2 x Safety Catch -->
-        <item name="WaywardEko_SpiralSentry_10_SafetyCatch">
+        <item name="WaywardEko_SpiralSentry_1_10_SafetyCatch">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"
@@ -238,7 +238,7 @@
         </item>
 
         <!-- Base Bridge -->
-        <item name="WaywardEko_SpiralSentry_11_BaseBridge">
+        <item name="WaywardEko_SpiralSentry_1_11_BaseBridge">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">
                 <property name="Create_item"

@@ -15,7 +15,7 @@
     <!-- Stage 1 -->
     <append xpath="//items">
 
-        <item name="WaywardEko_EkoBox_1_Build">
+        <item name="WaywardEko_EkoBox_1_1_Build">
             <property name="Extends" value="WaywardEko_EkoBox" />
             <property class="Action0">
                 <property name="Create_item"

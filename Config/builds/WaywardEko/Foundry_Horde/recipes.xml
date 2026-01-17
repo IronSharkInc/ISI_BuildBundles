@@ -4,40 +4,40 @@
     <!-- Stage 1 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_Foundry_Horde_1_Pit" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_1_Pit" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="818" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_2_PillarsAndFloor" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_2_PillarsAndFloor" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="304" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_3_SideWalls" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_3_SideWalls" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="68" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_4_FightingPositions" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_4_FightingPositions" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="80" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_5_PodsAndFrontFightingPosition" count="1"
+        <recipe name="WaywardEko_Foundry_Horde_1_5_PodsAndFrontFightingPosition" count="1"
             craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="84" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_6_Roof" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_6_Roof" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="95" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_7_LaddersAndBridge" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_7_LaddersAndBridge" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="282" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_8_ExternalTrimAndDoors" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_8_ExternalTrimAndDoors" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="36" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Horde_9_InteriorAndElectrical" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Horde_1_9_InteriorAndElectrical" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="18" />
         </recipe>
 

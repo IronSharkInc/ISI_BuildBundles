@@ -16,7 +16,7 @@
     <append xpath="//items">
 
         <!-- Pillars -->
-        <item name="WaywardEko_EkoCraft_1_Pillars">
+        <item name="WaywardEko_EkoCraft_1_1_Pillars">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -33,7 +33,7 @@
         </item>
 
         <!-- Base Floor -->
-        <item name="WaywardEko_EkoCraft_2_BaseFloor">
+        <item name="WaywardEko_EkoCraft_1_2_BaseFloor">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -56,7 +56,7 @@
         </item>
 
         <!-- Corners -->
-        <item name="WaywardEko_EkoCraft_3_Corners">
+        <item name="WaywardEko_EkoCraft_1_3_Corners">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -73,7 +73,7 @@
         </item>
 
         <!-- Sides -->
-        <item name="WaywardEko_EkoCraft_4_Sides">
+        <item name="WaywardEko_EkoCraft_1_4_Sides">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -100,7 +100,7 @@
         </item>
 
         <!-- Top Ring & Spires -->
-        <item name="WaywardEko_EkoCraft_5_TopRingAndSpires">
+        <item name="WaywardEko_EkoCraft_1_5_TopRingAndSpires">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -129,7 +129,7 @@
         </item>
 
         <!-- Roof -->
-        <item name="WaywardEko_EkoCraft_6_Roof">
+        <item name="WaywardEko_EkoCraft_1_6_Roof">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -160,7 +160,7 @@
         </item>
 
         <!-- Ramp -->
-        <item name="WaywardEko_EkoCraft_7_Ramp">
+        <item name="WaywardEko_EkoCraft_1_7_Ramp">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"
@@ -185,7 +185,7 @@
         </item>
 
         <!-- Entrance -->
-        <item name="WaywardEko_EkoCraft_8_Entrance">
+        <item name="WaywardEko_EkoCraft_1_8_Entrance">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">
                 <property name="Create_item"

@@ -4,36 +4,36 @@
     <!-- Stage 1 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_Foundry_Crafting_1_Ramp" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_1_Ramp" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="127" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_2_Frame" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_2_Frame" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="340" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_3_GarageLevelWalls" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_3_GarageLevelWalls" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="90" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_4_CraftingLevelWalls" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_4_CraftingLevelWalls" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="114" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_5_Roof" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_5_Roof" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="107" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_6_CraftingRoom" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_6_CraftingRoom" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="21" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_8_ExternalTrimAndFinalWiring" count="1"
+        <recipe name="WaywardEko_Foundry_Crafting_1_8_ExternalTrimAndFinalWiring" count="1"
             craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="93" />
         </recipe>
 
-        <recipe name="WaywardEko_Foundry_Crafting_9_GardenOptional" count="1" craft_time="5">
+        <recipe name="WaywardEko_Foundry_Crafting_1_9_GardenOptional" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="197" />
         </recipe>
 

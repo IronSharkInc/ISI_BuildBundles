@@ -16,7 +16,7 @@
     <append xpath="//items">
 
         <!-- Step 1 - Pit -->
-        <item name="WaywardEko_Foundry_Horde_1_Pit">
+        <item name="WaywardEko_Foundry_Horde_1_1_Pit">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -41,7 +41,7 @@
         </item>
 
         <!-- Step 2 - Pillars & Floor -->
-        <item name="WaywardEko_Foundry_Horde_2_PillarsAndFloor">
+        <item name="WaywardEko_Foundry_Horde_1_2_PillarsAndFloor">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -74,7 +74,7 @@
         </item>
 
         <!-- Step 3 - Side Walls -->
-        <item name="WaywardEko_Foundry_Horde_3_SideWalls">
+        <item name="WaywardEko_Foundry_Horde_1_3_SideWalls">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -93,7 +93,7 @@
         </item>
 
         <!-- Step 4 - Fighting Positions -->
-        <item name="WaywardEko_Foundry_Horde_4_FightingPositions">
+        <item name="WaywardEko_Foundry_Horde_1_4_FightingPositions">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -122,7 +122,7 @@
         </item>
 
         <!-- Step 5 - Pods & Front Fighting Position -->
-        <item name="WaywardEko_Foundry_Horde_5_PodsAndFrontFightingPosition">
+        <item name="WaywardEko_Foundry_Horde_1_5_PodsAndFrontFightingPosition">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -147,7 +147,7 @@
         </item>
 
         <!-- Step 6 - Roof -->
-        <item name="WaywardEko_Foundry_Horde_6_Roof">
+        <item name="WaywardEko_Foundry_Horde_1_6_Roof">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -186,7 +186,7 @@
         </item>
 
         <!-- Step 7 - Ladders & Bridge -->
-        <item name="WaywardEko_Foundry_Horde_7_LaddersAndBridge">
+        <item name="WaywardEko_Foundry_Horde_1_7_LaddersAndBridge">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -209,7 +209,7 @@
         </item>
 
         <!-- Step 8 - External Trim & Doors -->
-        <item name="WaywardEko_Foundry_Horde_8_ExternalTrimAndDoors">
+        <item name="WaywardEko_Foundry_Horde_1_8_ExternalTrimAndDoors">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"
@@ -230,7 +230,7 @@
         </item>
 
         <!-- Step 9 - Interior & Electrical -->
-        <item name="WaywardEko_Foundry_Horde_9_InteriorAndElectrical">
+        <item name="WaywardEko_Foundry_Horde_1_9_InteriorAndElectrical">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">
                 <property name="Create_item"

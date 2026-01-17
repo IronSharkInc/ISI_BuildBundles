@@ -16,7 +16,7 @@
     <append xpath="//items">
 
         <!-- Day 7 -->
-        <item name="WaywardEko_Switchback_1_Day07">
+        <item name="WaywardEko_Switchback_1_1_Day07">
             <property name="Extends" value="WaywardEko_Switchback" />
             <property class="Action0">
                 <property name="Create_item"
@@ -63,7 +63,7 @@
         </item>
 
         <!-- Day 14 -->
-        <item name="WaywardEko_Switchback_2_Day14">
+        <item name="WaywardEko_Switchback_1_2_Day14">
             <property name="Extends" value="WaywardEko_Switchback" />
             <property class="Action0">
                 <property name="Create_item"
@@ -112,7 +112,7 @@
         </item>
 
         <!-- Day 21 -->
-        <item name="WaywardEko_Switchback_3_Day21">
+        <item name="WaywardEko_Switchback_1_3_Day21">
             <property name="Extends" value="WaywardEko_Switchback" />
             <property class="Action0">
                 <property name="Create_item"
@@ -165,7 +165,7 @@
         </item>
 
         <!-- Day 28+ -->
-        <item name="WaywardEko_Switchback_4_Day28">
+        <item name="WaywardEko_Switchback_1_4_Day28">
             <property name="Extends" value="WaywardEko_Switchback" />
             <property class="Action0">
                 <property name="Create_item"

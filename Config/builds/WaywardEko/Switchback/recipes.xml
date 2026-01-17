@@ -4,20 +4,20 @@
     <!-- Stage 1 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_Switchback_1_Day07" count="1" craft_time="5">
+        <recipe name="WaywardEko_Switchback_1_1_Day07" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="422" />
         </recipe>
 
-        <recipe name="WaywardEko_Switchback_2_Day14" count="1" craft_time="5">
+        <recipe name="WaywardEko_Switchback_1_2_Day14" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="342" />
         </recipe>
 
-        <recipe name="WaywardEko_Switchback_3_Day21" count="1" craft_time="5">
+        <recipe name="WaywardEko_Switchback_1_3_Day21" count="1" craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="116" />
             <ingredient name="concreteShapes:VariantHelper" count="59" />
         </recipe>
 
-        <recipe name="WaywardEko_Switchback_4_Day28" count="1" craft_time="5">
+        <recipe name="WaywardEko_Switchback_1_4_Day28" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="76" />
         </recipe>
 

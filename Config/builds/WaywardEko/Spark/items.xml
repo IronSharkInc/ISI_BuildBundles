@@ -17,7 +17,7 @@
 
         <!-- The Spark || Stage 1 -->
         <!-- Stage 1 | Step 1 - Base Side -->
-        <item name="WaywardEko_Spark_Stage1_Step1_BaseSide">
+        <item name="WaywardEko_Spark_1_1_BaseSide">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -68,7 +68,7 @@
         </item>
 
         <!-- Stage 1 | Step 2 - Pit -->
-        <item name="WaywardEko_Spark_Stage1_Step2_Pit">
+        <item name="WaywardEko_Spark_1_2_Pit">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -105,7 +105,7 @@
         </item>
 
         <!-- Stage 1 | Step 3 - Ladders & Approach -->
-        <item name="WaywardEko_Spark_Stage1_Step3_LaddersAndApproach">
+        <item name="WaywardEko_Spark_1_3_LaddersAndApproach">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -126,7 +126,7 @@
         </item>
 
         <!-- Stage 1 | Optional Dog Ramp -->
-        <item name="WaywardEko_Spark_Stage1_Step4_OptionalDogRamp">
+        <item name="WaywardEko_Spark_1_4_OptionalDogRamp">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -160,7 +160,7 @@
         <!-- The Spark || Stage 2 -->
         <!-- Stage 2 | Step 1 - Upgrade to Cobblestone -->
         <!-- Stage 2 | Step 2 - Pillars Reinforcement -->
-        <item name="WaywardEko_Spark_Stage2_Step2_PillarsReinforcement">
+        <item name="WaywardEko_Spark_2_2_PillarsReinforcement">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -177,7 +177,7 @@
         </item>
 
         <!-- Stage 2 | Step 3 - Electric Fences -->
-        <item name="WaywardEko_Spark_Stage2_Step3_ElectricFences">
+        <item name="WaywardEko_Spark_2_3_ElectricFences">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -194,7 +194,7 @@
         </item>
 
         <!-- Stage 2 | Step 4 - Pit & Fighting Position Upgrades -->
-        <item name="WaywardEko_Spark_Stage2_Step4_PitAndFightingPositionUpgrades">
+        <item name="WaywardEko_Spark_2_4_PitAndFightingPositionUpgrades">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -217,7 +217,7 @@
         <!-- The Spark || Stage 3 -->
         <!-- Stage 3 | Step 1 - Upgrade to Concrete -->
         <!-- Stage 3 | Step 2 - Pit Upgrade -->
-        <item name="WaywardEko_Spark_Stage3_Step2_PitUpgrade">
+        <item name="WaywardEko_Spark_3_2_PitUpgrade">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"
@@ -234,7 +234,7 @@
         </item>
 
         <!-- Stage 3 | Step 3 - Final Upgrades -->
-        <item name="WaywardEko_Spark_Stage3_Step3_FinalUpgrades">
+        <item name="WaywardEko_Spark_3_3_FinalUpgrades">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">
                 <property name="Create_item"

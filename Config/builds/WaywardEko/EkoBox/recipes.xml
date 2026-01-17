@@ -4,7 +4,7 @@
     <!-- Stage 1 -->
     <append xpath="//recipes">
         
-        <recipe name="WaywardEko_EkoBox_1_Build" count="1" craft_time="5">
+        <recipe name="WaywardEko_EkoBox_1_1_Build" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="459" />
         </recipe>
 
