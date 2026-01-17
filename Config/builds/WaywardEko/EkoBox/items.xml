@@ -1,16 +1,20 @@
 <IronSharkInc>
 
-    <!-- Eko Box -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_EkoBox">
             <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_EkoBox_Description" />
         </item>
 
-        <!-- Step Bundles -->
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
+
         <item name="WaywardEko_EkoBox_1_Build">
             <property name="Extends" value="WaywardEko_EkoBox" />
             <property class="Action0">
@@ -75,7 +79,10 @@
             </property>
         </item>
 
-        <!-- All the Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
         <item name="WaywardEko_EkoBox_Shapes">
             <property name="Extends" value="WaywardEko_EkoBox" />
             <property class="Action0">

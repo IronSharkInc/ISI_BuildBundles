@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Foundry (Horde Base) -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_Foundry_Horde">
             <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_Foundry_Horde_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Step 1 - Pit -->
         <item name="WaywardEko_Foundry_Horde_1_Pit">
@@ -247,7 +252,11 @@
             </property>
         </item>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_Foundry_Horde_Shapes">
             <property name="Extends" value="WaywardEko_Foundry_Horde" />
             <property class="Action0">

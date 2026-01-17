@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Foundry (Crafting Base) -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_Foundry_Crafting">
             <property name="Extends" value="WaywardEko_DarkGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_Foundry_Crafting_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Bill of Materials -->
         <!-- Step 1 - Ramp -->
@@ -234,7 +239,11 @@
             </property>
         </item>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_Foundry_Crafting_Shapes">
             <property name="Extends" value="WaywardEko_Foundry_Crafting" />
             <property class="Action0">

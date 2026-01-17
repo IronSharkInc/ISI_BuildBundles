@@ -1,16 +1,20 @@
 <IronSharkInc>
 
-    <!-- Eko Mini -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_EkoMini">
             <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_EkoMini_Description" />
         </item>
 
-        <!-- Stage 1 -->
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
+
         <item name="WaywardEko_EkoMini_1_1_Foundation">
             <property name="Extends" value="WaywardEko_EkoMini" />
             <property class="Action0">
@@ -169,8 +173,12 @@
         <!-- <item name="WaywardEko_EkoMini_1_8_ElectricFences">
             <property name="Extends" value="WaywardEko_EkoMini" />
         </item> -->
-        
-        <!-- Stage 2 -->
+
+    </append>
+
+    <!-- Stage 2 -->
+    <append xpath="//items">
+
         <!-- <item name="WaywardEko_EkoMini_2_1_UpgradeExistingStructures">
             <property name="Extends" value="WaywardEko_EkoMini" />
         </item> -->
@@ -216,8 +224,12 @@
                 " />
             </property>
         </item>
-        
-        <!-- Stage 3 -->
+
+    </append>
+
+    <!-- Stage 3 -->
+    <append xpath="//items">
+
         <!-- <item name="WaywardEko_EkoMini_3_1_UpgradeExistingStructure">
             <property name="Extends" value="WaywardEko_EkoMini" />
         </item> -->
@@ -254,8 +266,12 @@
             <property name="Extends" value="WaywardEko_EkoMini" />
         </item> -->
 
-        <!-- All Shapes -->
-        <item name="WaywardEko_EkoMini_0_Shapes">
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
+        <item name="WaywardEko_EkoMini_Shapes">
             <property name="Extends" value="WaywardEko_EkoMini" />
             <property class="Action0">
                 <property name="Create_item"

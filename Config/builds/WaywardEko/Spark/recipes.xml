@@ -1,10 +1,9 @@
 <IronSharkInc>
 
-    <!-- Spark -->
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
     <append xpath="//recipes">
-
-        <!-- Step Bundles -->
-        <!-- Stage 1 -->
+        
         <recipe name="WaywardEko_Spark_Stage1_Step1_BaseSide" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="142" />
             <ingredient name="cobblestoneShapes:VariantHelper" count="29" />
@@ -24,7 +23,11 @@
             <ingredient name="cobblestoneShapes:VariantHelper" count="7" />
         </recipe>
 
-        <!-- Stage 2 -->
+    </append>
+
+    <!-- Stage 2 -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_Spark_Stage2_Step2_PillarsReinforcement" count="1" craft_time="5">
             <ingredient name="cobblestoneShapes:VariantHelper" count="36" />
         </recipe>
@@ -38,12 +41,20 @@
             <ingredient name="cobblestoneShapes:VariantHelper" count="28" />
         </recipe>
 
-        <!-- Stage 3 -->
+    </append>
+
+    <!-- Stage 3 -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_Spark_Stage3_Step2_PitUpgrade" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="12" />
         </recipe>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_Spark_Shapes" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="486" />
         </recipe>

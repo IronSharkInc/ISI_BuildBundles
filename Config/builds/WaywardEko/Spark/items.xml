@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Spark -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_Spark">
             <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_Spark_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- The Spark || Stage 1 -->
         <!-- Stage 1 | Step 1 - Base Side -->
@@ -147,6 +152,11 @@
             </property>
         </item>
 
+    </append>
+
+    <!-- Stage 2 -->
+    <append xpath="//items">
+
         <!-- The Spark || Stage 2 -->
         <!-- Stage 2 | Step 1 - Upgrade to Cobblestone -->
         <!-- Stage 2 | Step 2 - Pillars Reinforcement -->
@@ -222,9 +232,45 @@
                 " />
             </property>
         </item>
-        <!-- Stage 3 | Step 3 - Final Upgrades -->
 
-        <!-- All Shapes -->
+        <!-- Stage 3 | Step 3 - Final Upgrades -->
+        <item name="WaywardEko_Spark_Stage3_Step3_FinalUpgrades">
+            <property name="Extends" value="WaywardEko_Spark" />
+            <property class="Action0">
+                <property name="Create_item"
+                    value="
+                    concreteShapes:cube,
+                    concreteShapes:ramp,
+                    concreteShapes:stairsFilledVerticalUV,
+                    concreteShapes:wedgeNarrowTip,
+                    concreteShapes:wedgeNarrowLow,
+                    concreteShapes:wedgeNarrowMid,
+                    concreteShapes:wedgeNarrowHigh,
+                    concreteShapes:plateHalf,
+                    concreteShapes:plateRampHalfLeft,
+                    concreteShapes:plateRampHalfRight
+                " />
+                <property name="Create_item_count"
+                    value="
+                    96,
+                    8,
+                    8,
+                    3,
+                    3,
+                    3,
+                    3,
+                    4,
+                    2,
+                    2
+                " />
+            </property>
+        </item>
+
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_Spark_Shapes">
             <property name="Extends" value="WaywardEko_Spark" />
             <property class="Action0">

@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Eko Craft -->
+    <!-- Template -->
     <append xpath="//items">
-
-        <!-- Template -->
+        
         <item name="WaywardEko_EkoCraft">
             <property name="Extends" value="WaywardEko_DarkGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_EkoCraft_Description" />
         </item>
+    
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Pillars -->
         <item name="WaywardEko_EkoCraft_1_Pillars">
@@ -200,7 +205,11 @@
             </property>
         </item>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_EkoCraft_Shapes">
             <property name="Extends" value="WaywardEko_EkoCraft" />
             <property class="Action0">

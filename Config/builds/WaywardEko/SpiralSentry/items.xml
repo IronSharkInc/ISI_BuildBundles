@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Spiral Sentry -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_SpiralSentry">
             <property name="Extends" value="WaywardEko_DarkGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_SpiralSentry_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Pillars -->
         <item name="WaywardEko_SpiralSentry_01_Pillars">
@@ -257,7 +262,11 @@
             </property>
         </item>
 
-        <!-- ALL SHAPES-->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_SpiralSentry_Shapes">
             <property name="Extends" value="WaywardEko_SpiralSentry" />
             <property class="Action0">

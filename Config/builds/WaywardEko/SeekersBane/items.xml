@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Seeker's Bane -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_SeekersBane">
             <property name="Extends" value="WaywardEko_DarkGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_SeekersBane_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Stage 1 | Step 1 - Pillars & Platform -->
         <item name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform">
@@ -154,6 +159,11 @@
                 " />
             </property>
         </item>
+
+    </append>
+
+    <!-- Stage 2 -->
+    <append xpath="//items">
 
         <!-- Stage 2 | Step 2 - Pillars & Platform -->
         <item name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform">
@@ -342,6 +352,11 @@
             </property>
         </item>
 
+    </append>
+
+    <!-- Stage 3 -->
+    <append xpath="//items">
+
         <!-- Stage 3 | Step 2 - Ramp Expansion -->
         <item name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion">
             <property name="Extends" value="WaywardEko_SeekersBane" />
@@ -466,7 +481,10 @@
             </property>
         </item>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
         <item name="WaywardEko_SeekersBane_Shapes">
             <property name="Extends" value="WaywardEko_SeekersBane" />
             <property class="Action0">

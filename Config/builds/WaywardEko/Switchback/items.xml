@@ -1,14 +1,19 @@
 <IronSharkInc>
 
-    <!-- Switchback -->
+    <!-- Template -->
     <append xpath="//items">
 
-        <!-- Template -->
         <item name="WaywardEko_Switchback">
             <property name="Extends" value="WaywardEko_LightGreen" />
             <property name="CreativeMode" value="None" />
             <property name="DescriptionKey" value="WaywardEko_Switchback_Description" />
         </item>
+
+    </append>
+
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
+    <append xpath="//items">
 
         <!-- Day 7 -->
         <item name="WaywardEko_Switchback_1_Day07">
@@ -192,7 +197,11 @@
             </property>
         </item>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//items">
+
         <item name="WaywardEko_Switchback_Shapes">
             <property name="Extends" value="WaywardEko_Switchback" />
             <property class="Action0">

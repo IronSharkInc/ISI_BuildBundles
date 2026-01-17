@@ -1,9 +1,9 @@
 <IronSharkInc>
 
-    <!-- Seeker's Bane -->
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
     <append xpath="//recipes">
-
-        <!-- Step Bundles -->
+        
         <recipe name="WaywardEko_SeekersBane_Stage1_Step1_PillarsAndPlatform" count="1"
             craft_time="1">
             <ingredient name="woodShapes:VariantHelper" count="98" />
@@ -18,6 +18,11 @@
             <ingredient name="woodShapes:VariantHelper" count="120" />
         </recipe>
 
+    </append>
+
+    <!-- Stage 2 -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_SeekersBane_Stage2_Step2_PillarsAndPlatform" count="1"
             craft_time="1">
             <ingredient name="cobblestoneShapes:VariantHelper" count="103" />
@@ -40,6 +45,11 @@
             <ingredient name="cobblestoneShapes:VariantHelper" count="138" />
         </recipe>
 
+    </append>
+
+    <!-- Stage 3 -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_SeekersBane_Stage3_Step2_RampExpansion" count="1" craft_time="1">
             <ingredient name="concreteShapes:VariantHelper" count="236" />
         </recipe>
@@ -57,7 +67,11 @@
             <ingredient name="concreteShapes:VariantHelper" count="28" />
         </recipe>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_SeekersBane_Shapes" count="1" craft_time="1">
             <ingredient name="concreteShapes:VariantHelper" count="1371" />
         </recipe>

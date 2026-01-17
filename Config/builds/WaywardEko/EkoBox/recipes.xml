@@ -1,14 +1,18 @@
 <IronSharkInc>
 
-    <!-- Eko Box -->
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
     <append xpath="//recipes">
-
-        <!-- Step Bundles -->
+        
         <recipe name="WaywardEko_EkoBox_1_Build" count="1" craft_time="5">
             <ingredient name="woodShapes:VariantHelper" count="459" />
         </recipe>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_EkoBox_Shapes" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="459" />
         </recipe>

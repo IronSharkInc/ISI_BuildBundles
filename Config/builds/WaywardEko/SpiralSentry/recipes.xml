@@ -1,9 +1,9 @@
 <IronSharkInc>
 
-    <!-- Spiral Sentry -->
+    <!-- Step Bundles -->
+    <!-- Stage 1 -->
     <append xpath="//recipes">
-
-        <!-- Step Bundles -->
+        
         <recipe name="WaywardEko_SpiralSentry_01_Pillars" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="96" />
         </recipe>
@@ -51,7 +51,11 @@
             <ingredient name="concreteShapes:VariantHelper" count="24" />
         </recipe>
 
-        <!-- All Shapes -->
+    </append>
+
+    <!-- All Shapes -->
+    <append xpath="//recipes">
+        
         <recipe name="WaywardEko_SpiralSentry_Shapes" count="1" craft_time="5">
             <ingredient name="concreteShapes:VariantHelper" count="644" />
         </recipe>

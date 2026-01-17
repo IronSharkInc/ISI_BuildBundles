@@ -18,7 +18,7 @@ WaywardEko_EkoCraft_7_Ramp,blocks,block,,,            "Eko Craft - 7 - Ramp",,,,
 WaywardEko_EkoCraft_8_Entrance,blocks,block,,,        "Eko Craft - 8 - Entrance",,,,,,,,,,,,,
 
 WaywardEko_EkoMini_Description,blocks,block,,,                  "A bundle of shapes needed to build the [00b400]Eko Mini[-] created by [00b400]WaywardEko[-].\n\nhttps://www.youtube.com/@WaywardEko",,,,,,,,,,,,,
-WaywardEko_EkoMini_0_Shapes,blocks,block,,,                     "Eko Mini - All Shapes",,,,,,,,,,,,,
+WaywardEko_EkoMini_Shapes,blocks,block,,,                     "Eko Mini - All Shapes",,,,,,,,,,,,,
 WaywardEko_EkoMini_1_1_Foundation,blocks,block,,,               "Eko Mini - Stage 1 - Step 1: Foundation",,,,,,,,,,,,,
 WaywardEko_EkoMini_1_2_Pillars,blocks,block,,,                  "Eko Mini - Stage 1 - Step 2: Pillars",,,,,,,,,,,,,
 WaywardEko_EkoMini_1_3_Floor,blocks,block,,,                    "Eko Mini - Stage 1 - Step 3: Floor",,,,,,,,,,,,,
