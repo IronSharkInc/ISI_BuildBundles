@@ -1,6 +1,6 @@
 # ISI Build Bundles
 
-A 7 Days to Die (7D2D) mod that adds recipes that turns building cubes into the specific shapes needed to build iconic horde bases.
+A 7 Days to Die (7D2D) mod that simplifies the building process by providing convenient recipes to convert building blocks into the specific shapes needed for iconic horde bases.
 
 ## Included Bases
 
@@ -14,6 +14,7 @@ A 7 Days to Die (7D2D) mod that adds recipes that turns building cubes into the 
 - [WaywardEko - The Spark](https://www.youtube.com/watch?v=GcciKSy9z_M)
 - [WaywardEko - The Foundry: Horde Base](https://www.youtube.com/watch?v=k89FE_6P9fA)
 - [WaywardEko - The Foundry: Crafting Base](https://www.youtube.com/watch?v=UT6BViqGJkg)
+- [WaywardEko - The Eko Mini](https://www.youtube.com/watch?v=Xd5JG4OIoyI)
 
 ## Screenshots
 
